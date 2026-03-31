@@ -3,8 +3,8 @@ This repository contains supplementary material for our paper entitled “Visual
 
 ## Prompts
 We provide the main prompts for the two navigation-manipulation modes used in our evaluation:
-Mode v2: uses the front camera image with polar actions for local navigation.
-Mode v3: leverages a robot-centric semantic occupancy map for local navigation.
+- Mode v2: uses the front camera image with polar actions for local navigation.
+- Mode v3: leverages a robot-centric semantic occupancy map for local navigation.
 
 ## Demonstrations
 The demonstrations are textual-only reasoning examples designed to help the VLM handle common issues when using a noisy semantic map (for example, detecting a false positive instead of the actual target).
@@ -16,9 +16,9 @@ We provide the perception and action tool descriptions in JSON schema format, co
 
 ## Gazebo Environments
 We provide the .world files for the three Gazebo simulation environments used in our evaluation:
-greenhouse10.world: complex polyculture environment
-greenhouse11.world: monoculture environment
-greenhouse12.world: simple polyculture environment
+- greenhouse10.world: complex polyculture environment
+- greenhouse11.world: monoculture environment
+- greenhouse12.world: simple polyculture environment
 
 These models were tested on ROS1 Gazebo. ROS2 Gazebo may require some adjustments.
 

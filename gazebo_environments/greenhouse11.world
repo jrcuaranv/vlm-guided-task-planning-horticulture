@@ -1,0 +1,1717 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='grey_wall_8m'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall_8m/materials/scripts</uri>
+              <uri>model://grey_wall_8m/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4.08219 0.084279 0 0 -0 0</pose>
+    </model>
+    <model name='grey_wall_8m_0'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall_8m/materials/scripts</uri>
+              <uri>model://grey_wall_8m/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>5.13622 -4.88094 0 0 -0 0</pose>
+    </model>
+    <state world_name='default'>
+      <sim_time>3770 652000000</sim_time>
+      <real_time>1184 779301493</real_time>
+      <wall_time>1758162917 823631997</wall_time>
+      <iterations>1181773</iterations>
+      <model name='grey_wall_8m'>
+        <pose>0 4.1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 4.1 1.4 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='grey_wall_8m_0'>
+        <pose>0 -4.1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 -4.1 1.4 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='grey_wall_8m_1'>
+        <pose>-4.1 0 0 0 -0 1.5708</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-4.1 0 1.4 0 -0 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='grey_wall_8m_2'>
+        <pose>4.1 0 0 0 -0 1.5708</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>4.1 0 1.4 0 -0 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ground_plane'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='kinect'>
+        <pose>0 -3.8 4 -0 0.8 1.5708</pose>
+        <scale>1 1 1</scale>
+        <link name='link_kinect'>
+          <pose>0 -3.8 4 -0 0.8 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant1'>
+        <pose>2 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant1'>
+          <pose>2 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant1_0'>
+        <pose>0 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant1'>
+          <pose>0 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant1_1'>
+        <pose>-1.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant1'>
+          <pose>-1.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant1_2'>
+        <pose>1.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant1'>
+          <pose>1.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant2'>
+        <pose>2.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant2'>
+          <pose>2.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant2_0'>
+        <pose>0.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant2'>
+          <pose>0.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant2_1'>
+        <pose>-1 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant2'>
+          <pose>-1 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant2_2'>
+        <pose>1 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant2'>
+          <pose>1 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant3'>
+        <pose>1 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant3'>
+          <pose>1 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant3_0'>
+        <pose>-0.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant3'>
+          <pose>-0.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant3_1'>
+        <pose>0.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant3'>
+          <pose>0.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant4'>
+        <pose>-1 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant4'>
+          <pose>-1 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant4_0'>
+        <pose>1.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant4'>
+          <pose>1.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant4_1'>
+        <pose>0 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant4'>
+          <pose>0 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant4_2'>
+        <pose>0 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant4'>
+          <pose>0 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant5'>
+        <pose>-0.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant5'>
+          <pose>-0.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant5_0'>
+        <pose>-2.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant5'>
+          <pose>-2.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant5_1'>
+        <pose>2 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant5'>
+          <pose>2 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant5_2'>
+        <pose>0.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant5'>
+          <pose>0.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant5_3'>
+        <pose>-0.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant5'>
+          <pose>-0.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant6'>
+        <pose>0 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant6'>
+          <pose>0 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant6_0'>
+        <pose>-2 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant6'>
+          <pose>-2 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant6_1'>
+        <pose>2.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant6'>
+          <pose>2.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant6_2'>
+        <pose>1 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant6'>
+          <pose>1 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant6_3'>
+        <pose>-1 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant6'>
+          <pose>-1 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant7'>
+        <pose>-2.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant7'>
+          <pose>-2.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant7_0'>
+        <pose>0.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant7'>
+          <pose>0.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant7_1'>
+        <pose>-1.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant7'>
+          <pose>-1.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant7_2'>
+        <pose>1.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant7'>
+          <pose>1.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant7_3'>
+        <pose>-1.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant7'>
+          <pose>-1.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8'>
+        <pose>-2 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>-2 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_0'>
+        <pose>1 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>1 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_1'>
+        <pose>-1 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>-1 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_2'>
+        <pose>2.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>2.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_3'>
+        <pose>2 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>2 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_4'>
+        <pose>-2 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>-2 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant8_5'>
+        <pose>2.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant8'>
+          <pose>2.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9'>
+        <pose>-1.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>-1.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_0'>
+        <pose>1.5 -2 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>1.5 -2 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_1'>
+        <pose>-0.5 -0.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>-0.5 -0.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_2'>
+        <pose>-2 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>-2 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_3'>
+        <pose>-2.5 1 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>-2.5 1 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_4'>
+        <pose>-2.5 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>-2.5 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tomato_plant9_5'>
+        <pose>2 2.5 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_tomato_plant9'>
+          <pose>2 2.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 10 0 -0 0</pose>
+      </light>
+      <light name='user_directional_light_0'>
+        <pose>-2 -2 2 0 -0 0</pose>
+      </light>
+      <light name='user_directional_light_1'>
+        <pose>2 2 2 0 -0 0</pose>
+      </light>
+      <light name='user_directional_light_2'>
+        <pose>2 -2 2 0 -0 0</pose>
+      </light>
+      <light name='user_directional_light_3'>
+        <pose>-2 2 2 0 -0 0</pose>
+      </light>
+    </state>
+    <model name='tomato_plant7'>
+      <static>1</static>
+      <link name='link_tomato_plant7'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant7/meshes/tomato_plant7.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-2.38299 -2.09391 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.75377 -2.11645 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.0721 -2.06063 0 0 -0 0</pose>
+    </model>
+    <light name='user_directional_light_0' type='directional'>
+      <pose>-2.33602 -1.30151 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='user_directional_light_1' type='directional'>
+      <pose>2.50351 2.16636 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='user_directional_light_2' type='directional'>
+      <pose>2.55003 -1.52077 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <light name='user_directional_light_3' type='directional'>
+      <pose>-2.03609 1.77581 1 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <model name='grey_wall_8m_1'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall_8m/materials/scripts</uri>
+              <uri>model://grey_wall_8m/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-9.14156 0.266995 0 0 -0 0</pose>
+    </model>
+    <model name='grey_wall_8m_2'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>8 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall_8m/materials/scripts</uri>
+              <uri>model://grey_wall_8m/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>9.63732 0.636158 0 0 -0 0</pose>
+    </model>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.434527 -4.77988 15.6232 0 1.2258 1.5762</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <model name='kinect'>
+      <pose>0 -3.8 4 -0 0.8 1.5708</pose>
+      <static>1</static>
+      <link name='link_kinect'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://kinect/meshes/kinect.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <sensor name='camera' type='depth'>
+          <update_rate>10</update_rate>
+          <camera>
+            <horizontal_fov>1.39626</horizontal_fov>
+            <image>
+              <width>800</width>
+              <height>600</height>
+              <format>B8G8R8</format>
+            </image>
+            <clip>
+              <near>0.15</near>
+              <far>30</far>
+            </clip>
+          </camera>
+          <plugin name='camera_plugin' filename='libgazebo_ros_openni_kinect.so'>
+            <baseline>0.2</baseline>
+            <alwaysOn>1</alwaysOn>
+            <updateRate>0.0</updateRate>
+            <cameraName>camera_ir</cameraName>
+            <imageTopicName>/camera2/color/image_raw</imageTopicName>
+            <cameraInfoTopicName>/camera2/color/camera_info</cameraInfoTopicName>
+            <depthImageTopicName>/camera2/depth/image_raw</depthImageTopicName>
+            <depthImageCameraInfoTopicName>/camera2/depth/camera_info</depthImageCameraInfoTopicName>
+            <pointCloudTopicName>/camera2/depth/points</pointCloudTopicName>
+            <frameName>camera2_link</frameName>
+            <pointCloudCutoff>0.15</pointCloudCutoff>
+            <pointCloudCutoffMax>3.0</pointCloudCutoffMax>
+            <distortionK1>0</distortionK1>
+            <distortionK2>0</distortionK2>
+            <distortionK3>0</distortionK3>
+            <distortionT1>0</distortionT1>
+            <distortionT2>0</distortionT2>
+            <CxPrime>0</CxPrime>
+            <Cx>0</Cx>
+            <Cy>0</Cy>
+            <focalLength>0</focalLength>
+            <hackBaseline>0</hackBaseline>
+          </plugin>
+        </sensor>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='tomato_plant4'>
+      <static>1</static>
+      <link name='link_tomato_plant4'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant4/meshes/tomato_plant4.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.0064 -1.92946 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant5'>
+      <static>1</static>
+      <link name='link_tomato_plant5'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant5/meshes/tomato_plant5.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.540173 -2.05854 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant6'>
+      <static>1</static>
+      <link name='link_tomato_plant6'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant6/meshes/tomato_plant6.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.017652 -1.9229 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant7_0'>
+      <static>1</static>
+      <link name='link_tomato_plant7'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant7/meshes/tomato_plant7.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.886606 -2.00819 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_0'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.39381 -2.09219 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_0'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.24694 -2.13115 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant1'>
+      <static>1</static>
+      <link name='link_tomato_plant1'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant1/meshes/tomato_plant1.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.90836 -2.07622 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant2'>
+      <static>1</static>
+      <link name='link_tomato_plant2'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant2/meshes/tomato_plant2.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.55567 -1.97406 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant5_0'>
+      <static>1</static>
+      <link name='link_tomato_plant5'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant5/meshes/tomato_plant5.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-2.46135 -0.615831 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant6_0'>
+      <static>1</static>
+      <link name='link_tomato_plant6'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant6/meshes/tomato_plant6.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.89207 -0.562672 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant7_1'>
+      <static>1</static>
+      <link name='link_tomato_plant7'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant7/meshes/tomato_plant7.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.3978 -0.641158 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_1'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.976751 -0.55711 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_1'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.427752 -0.591037 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant1_0'>
+      <static>1</static>
+      <link name='link_tomato_plant1'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant1/meshes/tomato_plant1.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.052853 -0.626965 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant2_0'>
+      <static>1</static>
+      <link name='link_tomato_plant2'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant2/meshes/tomato_plant2.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.539647 -0.506478 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant3'>
+      <static>1</static>
+      <link name='link_tomato_plant3'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant3/meshes/tomato_plant3.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.998091 -0.518214 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant4_0'>
+      <static>1</static>
+      <link name='link_tomato_plant4'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant4/meshes/tomato_plant4.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.47652 -0.432806 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant5_1'>
+      <static>1</static>
+      <link name='link_tomato_plant5'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant5/meshes/tomato_plant5.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.79611 -0.431503 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant6_1'>
+      <static>1</static>
+      <link name='link_tomato_plant6'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant6/meshes/tomato_plant6.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.40059 -0.518762 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_2'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-2.62382 0.848225 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_2'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.99789 0.90883 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant1_1'>
+      <static>1</static>
+      <link name='link_tomato_plant1'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant1/meshes/tomato_plant1.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.46369 0.973497 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant2_1'>
+      <static>1</static>
+      <link name='link_tomato_plant2'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant2/meshes/tomato_plant2.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.15821 0.983374 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant3_0'>
+      <static>1</static>
+      <link name='link_tomato_plant3'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant3/meshes/tomato_plant3.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.603127 1.09768 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant4_1'>
+      <static>1</static>
+      <link name='link_tomato_plant4'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant4/meshes/tomato_plant4.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.078464 1.07101 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant5_2'>
+      <static>1</static>
+      <link name='link_tomato_plant5'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant5/meshes/tomato_plant5.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.491914 1.00764 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant6_2'>
+      <static>1</static>
+      <link name='link_tomato_plant6'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant6/meshes/tomato_plant6.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.994511 1.03011 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant7_2'>
+      <static>1</static>
+      <link name='link_tomato_plant7'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant7/meshes/tomato_plant7.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.53029 1.01871 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_3'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.91889 0.989633 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_3'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.48589 0.910399 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_4'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-2.42047 2.28154 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_4'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-2.06768 2.39243 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant7_3'>
+      <static>1</static>
+      <link name='link_tomato_plant7'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant7/meshes/tomato_plant7.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.61161 2.3621 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant6_3'>
+      <static>1</static>
+      <link name='link_tomato_plant6'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant6/meshes/tomato_plant6.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.92503 2.45809 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant5_3'>
+      <static>1</static>
+      <link name='link_tomato_plant5'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant5/meshes/tomato_plant5.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.47919 2.33661 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant4_2'>
+      <static>1</static>
+      <link name='link_tomato_plant4'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant4/meshes/tomato_plant4.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.025685 2.45284 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant3_1'>
+      <static>1</static>
+      <link name='link_tomato_plant3'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant3/meshes/tomato_plant3.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.45898 2.45789 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant2_2'>
+      <static>1</static>
+      <link name='link_tomato_plant2'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant2/meshes/tomato_plant2.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.946034 2.49044 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant1_2'>
+      <static>1</static>
+      <link name='link_tomato_plant1'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant1/meshes/tomato_plant1.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.47486 2.2729 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant9_5'>
+      <static>1</static>
+      <link name='link_tomato_plant9'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant9/meshes/tomato_plant9.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.95317 2.49891 0 0 -0 0</pose>
+    </model>
+    <model name='tomato_plant8_5'>
+      <static>1</static>
+      <link name='link_tomato_plant8'>
+        <visual name='visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://tomato_plant8/meshes/tomato_plant8.dae</uri>
+              <scale>0.02 0.02 0.02</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.54941 2.56386 0 0 -0 0</pose>
+    </model>
+  </world>
+</sdf>

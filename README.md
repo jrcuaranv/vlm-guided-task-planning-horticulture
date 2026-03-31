@@ -1,4 +1,4 @@
-# vlm-guided-task-planning-horticulture
+# Visual-Language-Guided Task Planning for Horticultural Robots
 This repository contains supplementary material for our paper entitled [“Visual-Language-Guided Task Planning for Horticultural Robots.”](https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/)
 
 ## Prompts

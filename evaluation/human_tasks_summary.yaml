@@ -1,0 +1,4099 @@
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.9967, -0.0810)
+  robot_position: (-2.6351, 1.2862, 0.1299)
+  task_category: 0
+  task_id: '20250922_122157'
+  task_prompt: Move to a tomato plant and get a photo of a ripe tomato using the tip
+    camera.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 12.92099917319049
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.9968, -0.0802)
+  robot_position: (-2.6353, 1.2862, 0.1299)
+  task_category: 0
+  task_id: '20250922_122157'
+  task_prompt: Move to a tomato plant and get a photo of a ripe tomato using the tip
+    camera.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 7.588289653746638
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.9967, -0.0812)
+  robot_position: (-2.6351, 1.2862, 0.1299)
+  task_category: 0
+  task_id: '20250922_122157'
+  task_prompt: Move to a tomato plant and get a photo of a ripe tomato using the tip
+    camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 5.889348598877913
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9281, 0.3723)
+  robot_position: (-1.3014, -3.6219, 0.1299)
+  task_category: 0
+  task_id: '20250922_124655'
+  task_prompt: Drive up to a bell-pepper plant and take a photo of a bell-pepper.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 5.089204846383952
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, 0.0001, 0.9281, 0.3724)
+  robot_position: (-1.3016, -3.6219, 0.1299)
+  task_category: 0
+  task_id: '20250922_124655'
+  task_prompt: Drive up to a bell-pepper plant and take a photo of a bell-pepper.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 2.8783461913590838
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9282, 0.3722)
+  robot_position: (-1.3015, -3.6219, 0.1299)
+  task_category: 0
+  task_id: '20250922_124655'
+  task_prompt: Drive up to a bell-pepper plant and take a photo of a bell-pepper.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 5.410286500663769
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.8120, 0.5837)
+  robot_position: (-0.8560, -1.7629, 0.1299)
+  task_category: 0
+  task_id: '20250922_125047'
+  task_prompt: Go to a lettuce plant and take a close-up photo of a leaf.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 4.848511642287898
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6851, 0.7285)
+  robot_position: (-2.4519, 1.2985, 0.1299)
+  task_category: 0
+  task_id: '20250922_125532'
+  task_prompt: Approach a tomato plant and take a close-up photo of a green tomato
+    with the tip camera.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 10.628991061532494
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6850, 0.7285)
+  robot_position: (-2.4519, 1.2984, 0.1299)
+  task_category: 0
+  task_id: '20250922_125532'
+  task_prompt: Approach a tomato plant and take a close-up photo of a green tomato
+    with the tip camera.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 7.1786438705984645
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6850, 0.7285)
+  robot_position: (-2.4519, 1.2986, 0.1299)
+  task_category: 0
+  task_id: '20250922_125532'
+  task_prompt: Approach a tomato plant and take a close-up photo of a green tomato
+    with the tip camera.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 6.285849189427423
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6780, 0.7351)
+  robot_position: (-1.4249, -3.3271, 0.1299)
+  task_category: 0
+  task_id: '20250922_131134'
+  task_prompt: Move to a bell-pepper plant and capture a close-up image of a leaf.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 4.536464910459401
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6943, -0.7197)
+  robot_position: (1.2276, -0.3535, 0.1299)
+  task_category: 0
+  task_id: '20250922_131528'
+  task_prompt: Get close to a strawberry plant and take a picture of a strawberry.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 5.141558134823323
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.6944, -0.7196)
+  robot_position: (1.2277, -0.3542, 0.1299)
+  task_category: 0
+  task_id: '20250922_131528'
+  task_prompt: Get close to a strawberry plant and take a picture of a strawberry.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 2.087732301110484
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.6943, -0.7197)
+  robot_position: (1.2276, -0.3536, 0.1299)
+  task_category: 0
+  task_id: '20250922_131528'
+  task_prompt: Get close to a strawberry plant and take a picture of a strawberry.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 4.849075407739267
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.4921, -0.8705)
+  robot_position: (0.7858, -1.6243, 0.1299)
+  task_category: 0
+  task_id: '20250922_132129'
+  task_prompt: Move to an eggplant plant and take a photo of an eggplant using the
+    tip camera.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 3.6739786194487785
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5553, 0.8317)
+  robot_position: (-1.5363, -0.0284, 0.1299)
+  task_category: 0
+  task_id: '20250922_132525'
+  task_prompt: Move toward a lettuce plant and capture a photo of a lettuce head using
+    the tip camera.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 3.2867435695804255
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.5549, 0.8319)
+  robot_position: (-1.5366, -0.0287, 0.1299)
+  task_category: 0
+  task_id: '20250922_132525'
+  task_prompt: Move toward a lettuce plant and capture a photo of a lettuce head using
+    the tip camera.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 5.523054224727149
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5548, 0.8320)
+  robot_position: (-1.5365, -0.0286, 0.1299)
+  task_category: 0
+  task_id: '20250922_132525'
+  task_prompt: Move toward a lettuce plant and capture a photo of a lettuce head using
+    the tip camera.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 7.859335568295176
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7692, -0.6390)
+  robot_position: (1.9108, 3.1036, 0.1299)
+  task_category: 0
+  task_id: '20250922_132929'
+  task_prompt: Drive up to a tomato plant and capture a photo of a leaf.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 8.730282091523945
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6080, 0.7939)
+  robot_position: (-1.4289, -3.0281, 0.1299)
+  task_category: 0
+  task_id: '20250922_133333'
+  task_prompt: Approach an eggplant plant and capture an image of a leaf.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 4.555960868308686
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6080, 0.7939)
+  robot_position: (-1.4288, -3.0280, 0.1299)
+  task_category: 0
+  task_id: '20250922_133333'
+  task_prompt: Approach an eggplant plant and capture an image of a leaf.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 10.182480533847354
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6080, 0.7939)
+  robot_position: (-1.4288, -3.0280, 0.1299)
+  task_category: 0
+  task_id: '20250922_133333'
+  task_prompt: Approach an eggplant plant and capture an image of a leaf.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 8.580853756587501
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7051, 0.7091)
+  robot_position: (-1.5997, -0.3121, 0.1299)
+  task_category: 0
+  task_id: '20250922_134649'
+  task_prompt: Approach a strawberry plant and capture a close-up photo of a strawberry
+    leaf.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 4.155462375064933
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7051, 0.7091)
+  robot_position: (-1.5997, -0.3116, 0.1299)
+  task_category: 0
+  task_id: '20250922_134649'
+  task_prompt: Approach a strawberry plant and capture a close-up photo of a strawberry
+    leaf.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 3.303626427629425
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.7051, 0.7091)
+  robot_position: (-1.5997, -0.3115, 0.1299)
+  task_category: 0
+  task_id: '20250922_134649'
+  task_prompt: Approach a strawberry plant and capture a close-up photo of a strawberry
+    leaf.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 8.393024898921475
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7320, 0.6813)
+  robot_position: (-0.2966, 2.6793, 0.1299)
+  task_category: 1
+  task_id: '20250922_144822'
+  task_prompt: Move to a tomato plant and take photos of two ripe tomatoes and a leaf
+    using the tip camera.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 7.474378185035013
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.8801, -0.4748)
+  robot_position: (2.6520, 1.5711, 0.1299)
+  task_category: 1
+  task_id: '20250922_154003'
+  task_prompt: Approach a tomato plant and capture images of one green tomato, a stem,
+    and a leaf.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 7.633019772180247
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0001, -0.0844, -0.9964)
+  robot_position: (2.6214, -0.3207, 0.1299)
+  task_category: 1
+  task_id: '20250922_155756'
+  task_prompt: Go near a tomato plant and take detailed photos of two leaves and a
+    stem
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 6.039631933701139
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.2866, -0.9580)
+  robot_position: (-1.2894, -1.5664, 0.1299)
+  task_category: 1
+  task_id: '20250922_162221'
+  task_prompt: Drive up to a bell-pepper plant and take photos of two bell-peppers
+    and a leaf.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 0.5933654087577459
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0001, -0.0003, -0.4421, -0.8970)
+  robot_position: (0.7382, 1.5598, 0.1298)
+  task_category: 0
+  task_id: '20250924_230030'
+  task_prompt: Get close to an eggplant plant and take a detailed photo of a stem.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 3.791305451720042
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, 0.0002, 0.8376, 0.5463)
+  robot_position: (-1.5115, 0.0140, 0.1299)
+  task_category: 0
+  task_id: '20250924_230716'
+  task_prompt: Focus the tip camera on a strawberry and take a picture.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 3.681431880049611
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6177, -0.7864)
+  robot_position: (0.8413, -1.7022, 0.1299)
+  task_category: 0
+  task_id: '20250924_231144'
+  task_prompt: Position the tip camera to take a photo of a lettuce plant.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 5.475515288579671
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0001, 0.0000, 0.6514, 0.7588)
+  robot_position: (-2.2891, 1.2002, 0.1298)
+  task_category: 0
+  task_id: '20250924_231632'
+  task_prompt: Navigate to a bell-pepper plant and take a picture of a leaf using
+    the tip camera.
+  tool_calls_count: 6
+  total_tokens: 0
+  traveled_distance: 4.351195942720212
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0001, 0.0000, 0.7068, 0.7074)
+  robot_position: (1.0737, -0.3486, 0.1299)
+  task_category: 0
+  task_id: '20250924_231929'
+  task_prompt: Navigate to a tomato plant and capture an image of a tomato cluster
+    using the tip camera.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 4.759464628495029
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.6800, 0.7332)
+  robot_position: (-1.3329, -3.3233, 0.1299)
+  task_category: 0
+  task_id: '20250924_232234'
+  task_prompt: Approach a bell-pepper plant and get a photo of its stem using the
+    tip camera.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 4.694988957483528
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, -0.0878, -0.9961)
+  robot_position: (2.1858, 1.3917, 0.1298)
+  task_category: 0
+  task_id: '20250925_151206'
+  task_prompt: Go near a tomato plant and take a detailed photo of a leaf with the
+    tip camera.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 7.456573835725713
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.5714, 0.8206)
+  robot_position: (-1.3633, -3.1030, 0.1299)
+  task_category: 0
+  task_id: '20250925_151543'
+  task_prompt: Navigate to a strawberry plant and capture a close-up photo of a leaf
+    with the tip camera.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 3.210144128964959
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0000, 0.8651, 0.5017)
+  robot_position: (-0.7830, 1.3325, 0.1299)
+  task_category: 0
+  task_id: '20250925_152246'
+  task_prompt: Position the tip camera toward a stem on a tomato plant and capture
+    a photo.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 6.44966533222332
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.7811, 0.6244)
+  robot_position: (-1.2225, -3.4318, 0.1298)
+  task_category: 1
+  task_id: '20250925_152817'
+  task_prompt: Move to an eggplant plant and take photos of two eggplants and a leaf
+    using the tip camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 4.789818153275719
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.7813, 0.6242)
+  robot_position: (-1.2224, -3.4321, 0.1299)
+  task_category: 1
+  task_id: '20250925_152817'
+  task_prompt: Move to an eggplant plant and take photos of two eggplants and a leaf
+    using the tip camera.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 4.310533748152555
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7817, 0.6237)
+  robot_position: (-1.2223, -3.4323, 0.1299)
+  task_category: 1
+  task_id: '20250925_152817'
+  task_prompt: Move to an eggplant plant and take photos of two eggplants and a leaf
+    using the tip camera.
+  tool_calls_count: 20
+  total_tokens: 0
+  traveled_distance: 6.6651834360946705
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6855, 0.7281)
+  robot_position: (-1.5719, -0.0584, 0.1299)
+  task_category: 1
+  task_id: '20250925_153839'
+  task_prompt: Go to the lettuce plants and take close-up photos of two of them
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 5.281536368469915
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0002, 0.8568, -0.5156)
+  robot_position: (-1.0161, 3.7033, 0.1299)
+  task_category: 1
+  task_id: '20250925_154312'
+  task_prompt: Navigate to a bell-pepper plant and capture images of a leaf, a stem,
+    and a bell-pepper with the tip camera.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 5.811321653926651
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.8568, -0.5156)
+  robot_position: (-1.0162, 3.7033, 0.1299)
+  task_category: 1
+  task_id: '20250925_154312'
+  task_prompt: Navigate to a bell-pepper plant and capture images of a leaf, a stem,
+    and a bell-pepper with the tip camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 12.384112698914457
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8569, -0.5155)
+  robot_position: (-1.0162, 3.7034, 0.1299)
+  task_category: 1
+  task_id: '20250925_154312'
+  task_prompt: Navigate to a bell-pepper plant and capture images of a leaf, a stem,
+    and a bell-pepper with the tip camera.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 13.599555099260614
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7704, 0.6376)
+  robot_position: (0.9789, -0.3360, 0.1299)
+  task_category: 1
+  task_id: '20250925_154951'
+  task_prompt: Approach a strawberry plant and take close-up photos of two strawberry
+    clusters
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 5.19399107715532
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7703, 0.6376)
+  robot_position: (0.9789, -0.3357, 0.1299)
+  task_category: 1
+  task_id: '20250925_154951'
+  task_prompt: Approach a strawberry plant and take close-up photos of two strawberry
+    clusters
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 5.388471628372432
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.7680, 0.6404)
+  robot_position: (0.9794, -0.3355, 0.1299)
+  task_category: 1
+  task_id: '20250925_154951'
+  task_prompt: Approach a strawberry plant and take close-up photos of two strawberry
+    clusters
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 2.1988247541663064
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.6083, -0.7937)
+  robot_position: (0.8155, -1.6899, 0.1299)
+  task_category: 1
+  task_id: '20250925_155520'
+  task_prompt: Get close to an eggplant plant and take detailed photos of two leaves
+    and a stem.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 3.378730912949587
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0002, 0.5300, 0.8480)
+  robot_position: (-1.4039, -0.0847, 0.1299)
+  task_category: 1
+  task_id: '20250925_155924'
+  task_prompt: Navigate to a tomato plant and get photos of three different tomato
+    fruits with the tip camera.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 4.645084597233771
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5810, 0.8139)
+  robot_position: (-1.2714, -3.1115, 0.1299)
+  task_category: 1
+  task_id: '20250925_160426'
+  task_prompt: Move to a bell-pepper plant and capture close-up images of a stem,
+    a bell-pepper, and a leaf using the tip camera.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 4.5724188451746715
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0001, -0.0003, 0.6030, -0.7977)
+  robot_position: (1.2322, -0.4050, 0.1298)
+  task_category: 1
+  task_id: '20250925_160923'
+  task_prompt: Drive up to a tomato plant and take photos of a green tomato, a ripe
+    tomato, and a stem.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 6.04652146025204
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0003, 0.7097, 0.7045)
+  robot_position: (0.0026, -3.0088, 0.1298)
+  task_category: 1
+  task_id: '20250925_193014'
+  task_prompt: Approach an eggplant plant and capture images of a stem, an eggplant,
+    and a leaf.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 4.068319496793595
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9240, 0.3824)
+  robot_position: (-1.7690, -0.0912, 0.1299)
+  task_category: 1
+  task_id: '20250925_193600'
+  task_prompt: Move toward a the lettuce plants and capture photos of three lettuce
+    heads with the tip camera.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 3.7034903580977834
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0004, 0.0000, 0.9238, 0.3828)
+  robot_position: (-1.7690, -0.0913, 0.1298)
+  task_category: 1
+  task_id: '20250925_193600'
+  task_prompt: Move toward a the lettuce plants and capture photos of three lettuce
+    heads with the tip camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 3.801985799266042
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9238, 0.3828)
+  robot_position: (-1.7687, -0.0915, 0.1299)
+  task_category: 1
+  task_id: '20250925_193600'
+  task_prompt: Move toward a the lettuce plants and capture photos of three lettuce
+    heads with the tip camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 6.700124490108088
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0002, 0.5826, 0.8128)
+  robot_position: (-2.3333, 1.2469, 0.1299)
+  task_category: 1
+  task_id: '20250925_194229'
+  task_prompt: Position the tip camera toward a stem, a ripe tomato, and a leaf on
+    a tomato plant and capture images.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 5.725499972716604
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5826, 0.8128)
+  robot_position: (-2.3332, 1.2470, 0.1299)
+  task_category: 1
+  task_id: '20250925_194229'
+  task_prompt: Position the tip camera toward a stem, a ripe tomato, and a leaf on
+    a tomato plant and capture images.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 6.38203940034778
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5826, 0.8128)
+  robot_position: (-2.3332, 1.2470, 0.1299)
+  task_category: 1
+  task_id: '20250925_194229'
+  task_prompt: Position the tip camera toward a stem, a ripe tomato, and a leaf on
+    a tomato plant and capture images.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 4.82228784250314
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0001, 0.2022, -0.9794)
+  robot_position: (-2.1348, -1.7351, 0.1299)
+  task_category: 1
+  task_id: '20250925_195142'
+  task_prompt: Navigate to a strawberry plant and take close-up photos of a strawberry
+    cluster and another one for leaves
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 3.394476147875436
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.2014, -0.9795)
+  robot_position: (-2.1340, -1.7356, 0.1299)
+  task_category: 1
+  task_id: '20250925_195142'
+  task_prompt: Navigate to a strawberry plant and take close-up photos of a strawberry
+    cluster and another one for leaves
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 7.2271437684198405
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.2015, -0.9795)
+  robot_position: (-2.1341, -1.7356, 0.1299)
+  task_category: 1
+  task_id: '20250925_195142'
+  task_prompt: Navigate to a strawberry plant and take close-up photos of a strawberry
+    cluster and another one for leaves
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 7.072727051773338
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9940, 0.1093)
+  robot_position: (-2.6002, -3.4756, 0.1299)
+  task_category: 1
+  task_id: '20250925_213443'
+  task_prompt: Approach a bell-pepper plant and take photos of two leaves and a stem.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 4.817931743698505
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9941, 0.1087)
+  robot_position: (-2.6004, -3.4754, 0.1299)
+  task_category: 1
+  task_id: '20250925_213443'
+  task_prompt: Approach a bell-pepper plant and take photos of two leaves and a stem.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 4.216408898699368
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9941, 0.1087)
+  robot_position: (-2.6003, -3.4754, 0.1299)
+  task_category: 1
+  task_id: '20250925_213443'
+  task_prompt: Approach a bell-pepper plant and take photos of two leaves and a stem.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 4.214000929674033
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6700, -0.7424)
+  robot_position: (-2.5587, -0.2776, 0.1299)
+  task_category: 2
+  task_id: '20250925_215305'
+  task_prompt: 'Move to three tomato plants and take one photo from each plant: a
+    ripe tomato from the first, a green tomato from the second, and a leaf from the
+    third using the tip camera.'
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 14.121885747481151
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0002, 0.8392, 0.5439)
+  robot_position: (-2.6200, -3.3126, 0.1299)
+  task_category: 2
+  task_id: '20250925_222050'
+  task_prompt: 'Navigate to a strawberry plant, a lettuce plant, and an eggplant plant
+    and take one photo from each plant: a strawberry from the first, a leaf from the
+    second, and an eggplant from the third.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 11.530167310505677
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8398, 0.5428)
+  robot_position: (-2.6201, -3.3127, 0.1299)
+  task_category: 2
+  task_id: '20250925_222050'
+  task_prompt: 'Navigate to a strawberry plant, a lettuce plant, and an eggplant plant
+    and take one photo from each plant: a strawberry from the first, a leaf from the
+    second, and an eggplant from the third.'
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 15.452340535487037
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8396, 0.5432)
+  robot_position: (-2.6200, -3.3124, 0.1299)
+  task_category: 2
+  task_id: '20250925_222050'
+  task_prompt: 'Navigate to a strawberry plant, a lettuce plant, and an eggplant plant
+    and take one photo from each plant: a strawberry from the first, a leaf from the
+    second, and an eggplant from the third.'
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 11.411204345935476
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.7911, -0.6117)
+  robot_position: (-2.1664, 1.5782, 0.1299)
+  task_category: 2
+  task_id: '20250925_224127'
+  task_prompt: 'Position the tip camera toward three tomato plants and capture one
+    image from each plant: a tomato cluster, a leaf, and a stem.'
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 14.989423835465416
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.8454, 0.5342)
+  robot_position: (-2.5368, -3.1757, 0.1299)
+  task_category: 2
+  task_id: '20250925_224933'
+  task_prompt: 'Approach three eggplant plants and take one photo from each: an eggplant,
+    a leaf, and a stem.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 9.5158015901757
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0001, -0.4474, -0.8943)
+  robot_position: (1.3991, -3.7659, 0.1299)
+  task_category: 2
+  task_id: '20250926_221710'
+  task_prompt: 'Focus the tip camera on a bell-pepper plant, a tomato plant, and a
+    lettuce plant and capture one image from each: a bell-pepper, a tomato leaf, and
+    a lettuce head.'
+  tool_calls_count: 33
+  total_tokens: 0
+  traveled_distance: 8.672051885262173
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0001, 0.0000, -0.4467, -0.8947)
+  robot_position: (1.3987, -3.7660, 0.1299)
+  task_category: 2
+  task_id: '20250926_221710'
+  task_prompt: 'Focus the tip camera on a bell-pepper plant, a tomato plant, and a
+    lettuce plant and capture one image from each: a bell-pepper, a tomato leaf, and
+    a lettuce head.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 12.078263065299915
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0001, -0.4470, -0.8946)
+  robot_position: (1.3989, -3.7659, 0.1299)
+  task_category: 2
+  task_id: '20250926_221710'
+  task_prompt: 'Focus the tip camera on a bell-pepper plant, a tomato plant, and a
+    lettuce plant and capture one image from each: a bell-pepper, a tomato leaf, and
+    a lettuce head.'
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 9.367910360438232
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.5476, -0.8367)
+  robot_position: (1.6303, 3.4320, 0.1299)
+  task_category: 3
+  task_id: '20250926_222756'
+  task_prompt: 'Approach three bell-pepper plants and capture three photos from each:
+    a bell-pepper, a leaf, and a stem.'
+  tool_calls_count: 38
+  total_tokens: 0
+  traveled_distance: 10.167591689519265
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.9903, 0.1386)
+  robot_position: (3.0966, 1.0642, 0.1299)
+  task_category: 2
+  task_id: '20250926_224807'
+  task_prompt: 'Go to three strawberry plants and take one photo from each: a strawberry,
+    a leaf, and a stem.'
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 13.242402213721135
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0001, -0.3112, -0.9503)
+  robot_position: (2.6722, -1.7613, 0.1299)
+  task_category: 2
+  task_id: '20250926_225930'
+  task_prompt: 'Move to a tomato plant, a bell-pepper plant, and another tomato plant
+    and capture one image from each: a green tomato, a stem, and a ripe tomato.'
+  tool_calls_count: 39
+  total_tokens: 0
+  traveled_distance: 11.365545331176877
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0001, -0.3094, -0.9509)
+  robot_position: (2.6720, -1.7615, 0.1299)
+  task_category: 2
+  task_id: '20250926_225930'
+  task_prompt: 'Move to a tomato plant, a bell-pepper plant, and another tomato plant
+    and capture one image from each: a green tomato, a stem, and a ripe tomato.'
+  tool_calls_count: 20
+  total_tokens: 0
+  traveled_distance: 9.78233268009339
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0001, -0.3107, -0.9505)
+  robot_position: (2.6722, -1.7613, 0.1299)
+  task_category: 2
+  task_id: '20250926_225930'
+  task_prompt: 'Move to a tomato plant, a bell-pepper plant, and another tomato plant
+    and capture one image from each: a green tomato, a stem, and a ripe tomato.'
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 10.922726914864189
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0003, 0.0003, 0.7312, 0.6821)
+  robot_position: (-1.9895, -1.7762, 0.1298)
+  task_category: 2
+  task_id: '20250926_230939'
+  task_prompt: 'Drive up to a bell-pepper plant, a lettuce plant, and a tomato plant
+    and take one photo from each: a bell-pepper, a lettuce head, and a ripe tomato.'
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 5.926535614336725
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9969, 0.0791)
+  robot_position: (-2.0991, 1.2013, 0.1299)
+  task_category: 1
+  task_id: '20250927_211415'
+  task_prompt: 'Get close to a strawberry plant and capture three pictures: two strawberry
+    clusters and leaves with the tip camera.'
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 4.714781837830647
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5823, -0.8129)
+  robot_position: (0.8048, -1.7241, 0.1299)
+  task_category: 1
+  task_id: '20250927_212047'
+  task_prompt: Navigate to the lettuces and take photos of two lettuce heads with
+    the tip camera
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 5.014333539314244
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6455, 0.7638)
+  robot_position: (-2.2802, 1.2687, 0.1299)
+  task_category: 1
+  task_id: '20250927_212757'
+  task_prompt: Navigate to a bell-pepper plant and capture three different views of
+    stems
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 4.01039644300207
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7323, 0.6810)
+  robot_position: (1.0279, -0.4527, 0.1299)
+  task_category: 2
+  task_id: '20250927_213741'
+  task_prompt: 'Navigate to three tomato plants and take one photo from each plant:
+    a leaf, a ripe tomato, and a green tomato.'
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 10.499162874518833
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8829, 0.4696)
+  robot_position: (-2.6787, -3.2250, 0.1299)
+  task_category: 2
+  task_id: '20250927_220526'
+  task_prompt: 'Approach three bell-pepper plants and capture one photo from each:
+    a bell-pepper, a leaf, and a stem.'
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 8.001134937024233
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7080, 0.7062)
+  robot_position: (0.0000, -3.0008, 0.1299)
+  task_category: 2
+  task_id: '20250929_191941'
+  task_prompt: 'Drive up to two bell-pepper plants and a strawberry plant and take
+    one photo from each plant: a bell-pepper, a leaf, and a strawberry.'
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 11.770323965145687
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7080, 0.7062)
+  robot_position: (0.0000, -3.0006, 0.1299)
+  task_category: 2
+  task_id: '20250929_191941'
+  task_prompt: 'Drive up to two bell-pepper plants and a strawberry plant and take
+    one photo from each plant: a bell-pepper, a leaf, and a strawberry.'
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 9.428067977623645
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0004, 0.1299)
+  task_category: 2
+  task_id: '20250929_191941'
+  task_prompt: 'Drive up to two bell-pepper plants and a strawberry plant and take
+    one photo from each plant: a bell-pepper, a leaf, and a strawberry.'
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 6.828663084285057
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5683, -0.8228)
+  robot_position: (0.8127, -1.7329, 0.1299)
+  task_category: 1
+  task_id: '20250929_193309'
+  task_prompt: I want you to get three close-up views of different lettuce plants
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 5.021276997509551
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6414, 0.7672)
+  robot_position: (-2.2758, 1.2673, 0.1299)
+  task_category: 2
+  task_id: '20250929_193743'
+  task_prompt: 'Approach two bell-pepper plants and a tomato plant and capture one
+    image from each plant: a bell-pepper from the first, a stem from the second, and
+    a tomato cluster from the third.'
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 9.874614309343043
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5735, 0.8192)
+  robot_position: (-1.2421, -3.1118, 0.1299)
+  task_category: 2
+  task_id: '20250929_194705'
+  task_prompt: 'Move toward a lettuce plant, a bell-pepper plant, and an eggplant
+    plant and capture one image from each: a lettuce leaf, a bell-pepper, and an eggplant.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 11.305883175130381
+  use_demonstrations: false
+  user_name: jsoe
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.0264, -0.9997)
+  robot_position: (2.4949, -0.2958, 0.1299)
+  task_category: 2
+  task_id: '20250929_211834'
+  task_prompt: 'Approach a tomato plant, a strawberry plant, and a lettuce plant and
+    take one photo from each: a tomato cluster, a strawberry, and a lettuce head.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 13.650799498727778
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8708, -0.4917)
+  robot_position: (-0.8314, 3.6507, 0.1299)
+  task_category: 2
+  task_id: '20250929_212715'
+  task_prompt: 'Move to an eggplant, a tomato plant, and a strawberry plant and take
+    one photo from each: an eggplant, a tomato cluster, and a strawberry cluster.'
+  tool_calls_count: 31
+  total_tokens: 0
+  traveled_distance: 15.933081824911316
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8708, -0.4917)
+  robot_position: (-0.8315, 3.6501, 0.1299)
+  task_category: 2
+  task_id: '20250929_212715'
+  task_prompt: 'Move to an eggplant, a tomato plant, and a strawberry plant and take
+    one photo from each: an eggplant, a tomato cluster, and a strawberry cluster.'
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 11.278938880112715
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8708, -0.4917)
+  robot_position: (-0.8314, 3.6505, 0.1299)
+  task_category: 2
+  task_id: '20250929_212715'
+  task_prompt: 'Move to an eggplant, a tomato plant, and a strawberry plant and take
+    one photo from each: an eggplant, a tomato cluster, and a strawberry cluster.'
+  tool_calls_count: 31
+  total_tokens: 0
+  traveled_distance: 15.998950204086402
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, -0.0376, -0.9993)
+  robot_position: (1.5376, -1.7626, 0.1299)
+  task_category: 2
+  task_id: '20250929_213436'
+  task_prompt: 'Get close to two tomato plants and a strawberry plant and take one
+    photo from each: a ripe tomato, a green tomato, and a strawberry.'
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 6.62013290891645
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.7038, -0.7104)
+  robot_position: (-2.0111, -1.5447, 0.1299)
+  task_category: 2
+  task_id: '20250929_215314'
+  task_prompt: Navigate to three bell-pepper plants on different rows and get a photo
+    of a bell pepper from each
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 4.126298936738372
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7038, -0.7104)
+  robot_position: (-2.0111, -1.5444, 0.1299)
+  task_category: 2
+  task_id: '20250929_215314'
+  task_prompt: Navigate to three bell-pepper plants on different rows and get a photo
+    of a bell pepper from each
+  tool_calls_count: 26
+  total_tokens: 0
+  traveled_distance: 5.213677103916577
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7033, -0.7109)
+  robot_position: (-2.0113, -1.5441, 0.1299)
+  task_category: 2
+  task_id: '20250929_215314'
+  task_prompt: Navigate to three bell-pepper plants on different rows and get a photo
+    of a bell pepper from each
+  tool_calls_count: 28
+  total_tokens: 0
+  traveled_distance: 9.313583613248866
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6671, 0.7450)
+  robot_position: (0.9479, -0.4105, 0.1299)
+  task_category: 2
+  task_id: '20250929_221801'
+  task_prompt: 'Navigate to two eggplants and a tomato plant and capture one image
+    from each plant: an eggplant, a leaf, and a ripe tomato'
+  tool_calls_count: 26
+  total_tokens: 0
+  traveled_distance: 8.089279308913357
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5676, 0.8233)
+  robot_position: (-1.2532, -3.1021, 0.1299)
+  task_category: 2
+  task_id: '20250929_223138'
+  task_prompt: Approach two lettuce clusters and take a close-up view of a lettuce
+    head from each. Then go to the bell-pepper plants and get a photo of a bell pepper
+  tool_calls_count: 30
+  total_tokens: 0
+  traveled_distance: 22.02853213349404
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5676, 0.8233)
+  robot_position: (-1.2532, -3.1021, 0.1299)
+  task_category: 2
+  task_id: '20250929_223138'
+  task_prompt: Approach two lettuce clusters and take a close-up view of a lettuce
+    head from each. Then go to the bell-pepper plants and get a photo of a bell pepper
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 21.444719769920535
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5678, 0.8232)
+  robot_position: (-1.2532, -3.1020, 0.1299)
+  task_category: 2
+  task_id: '20250929_223138'
+  task_prompt: Approach two lettuce clusters and take a close-up view of a lettuce
+    head from each. Then go to the bell-pepper plants and get a photo of a bell pepper
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 15.132595616389859
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, -0.2009, -0.9796)
+  robot_position: (0.4347, 3.0562, 0.1299)
+  task_category: 0
+  task_id: '20250930_101624'
+  task_prompt: move to the tomato plants and get a close-up view of a ripe tomato
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 7.116123631717466
+  use_demonstrations: false
+  user_name: adytia
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0003, 0.7085, 0.7057)
+  robot_position: (0.0028, -3.0049, 0.1298)
+  task_category: 0
+  task_id: '20250930_145045'
+  task_prompt: Move close to a tomato plant in the northernmost row and capture a
+    tip camera photo of a ripe tomato.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 7.734159827075953
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.7618, -0.6478)
+  robot_position: (-2.3147, 0.2661, 0.1299)
+  task_category: 0
+  task_id: '20251002_092716'
+  task_prompt: Approach a tomato plant in the middle row and take a detailed tip camera
+    image of a ripe tomato on the vine.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 0.002245719185233616
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0008, 0.1299)
+  task_category: 0
+  task_id: '20251002_130423'
+  task_prompt: Navigate to a tomato plant in the southernmost row and use the tip
+    camera to photograph a ripe tomato fruit.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 6.807063301438091
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7053, -0.7089)
+  robot_position: (-0.0165, -1.1931, 0.1299)
+  task_category: 0
+  task_id: '20251002_130811'
+  task_prompt: Position yourself near the easternmost tomato plant in the northenmost
+    row and capture a close-up tip camera photo of a ripe tomato.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 6.603103950629713
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5639, 0.8259)
+  robot_position: (2.2225, 1.8925, 0.1299)
+  task_category: 0
+  task_id: '20251002_131243'
+  task_prompt: Move to a tomato plant in the northernmost row and take a tip camera
+    image of a green tomato.
+  tool_calls_count: 6
+  total_tokens: 0
+  traveled_distance: 0.0010440992025759581
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0002, 0.5644, 0.8255)
+  robot_position: (2.2229, 1.8932, 0.1299)
+  task_category: 0
+  task_id: '20251002_131515'
+  task_prompt: Approach a tomato plant in the middle row and capture a detailed tip
+    camera photo of an unripe green tomato.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 1.004374542730728
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.5597, -0.8287)
+  robot_position: (1.6684, 1.7718, 0.1299)
+  task_category: 0
+  task_id: '20251002_132410'
+  task_prompt: Navigate near a tomato plant in the northern row and use the tip camera
+    to photograph a green tomato.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 0.23883721434248226
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7505, 0.6608)
+  robot_position: (1.7096, 1.6050, 0.1299)
+  task_category: 0
+  task_id: '20251002_135113'
+  task_prompt: Go close to a tomato plant in the middle row and take a close-up tip
+    camera photo of a green tomato cluster.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 4.056678277553839
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 50
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0001, 0.6780, 0.7351)
+  robot_position: (1.4161, 0.2352, 0.1299)
+  task_category: 0
+  task_id: '20251002_135426'
+  task_prompt: Move near a tomato plant in the southern row and capture a tip camera
+    photo of a yellow tomato.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 2.9500334396400305
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0014, 0.1299)
+  task_category: 0
+  task_id: '20251002_152805'
+  task_prompt: Approach the westernmost tomato plant in the middle row and take a
+    close-up tip camera image of a yellow tomato fruit.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 6.082073819281616
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 50
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0002, -0.0001, 0.7567, -0.6538)
+  robot_position: (-2.3473, 0.2258, 0.1299)
+  task_category: 0
+  task_id: '20251002_153120'
+  task_prompt: Navigate to a tomato plant in the northernmost row and use the tip
+    camera to photograph a ripe yellow tomato.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 2.553144013385576
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, -0.0000, 0.7375, 0.6754)
+  robot_position: (-2.4006, 1.7085, 0.1299)
+  task_category: 0
+  task_id: '20251002_153910'
+  task_prompt: Position yourself by a tomato plant in the southernmost row and capture
+    a detailed tip camera photo of a single yellow tomato.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 3.736897127147136
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.3841, -0.9233)
+  robot_position: (-3.2403, 3.2713, 0.1299)
+  task_category: 0
+  task_id: '20251002_155450'
+  task_prompt: Move to a tomato plant in the middle row and take a tip camera photo
+    of a broad leaf.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 1.5950859567279836
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.6065, -0.7951)
+  robot_position: (-2.6884, 1.8149, 0.1299)
+  task_category: 0
+  task_id: '20251002_155728'
+  task_prompt: Approach the easternmost tomato plant in the southernmost row and capture
+    a detailed tip camera image of a tomato leaf.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 8.859363533312962
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.7438, -0.6684)
+  robot_position: (2.5607, -1.3329, 0.1299)
+  task_category: 0
+  task_id: '20251002_160023'
+  task_prompt: Navigate near a tomato plant in the northern row and use the tip camera
+    to photograph a leaf with visible veins.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 4.957376971137455
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5564, 0.8309)
+  robot_position: (2.1703, 1.8709, 0.1299)
+  task_category: 0
+  task_id: '20251002_160634'
+  task_prompt: Go close to a tomato plant in the southern row and take a close-up
+    tip camera photo of a single tomato leaf.
+  tool_calls_count: 6
+  total_tokens: 0
+  traveled_distance: 4.175277796200025
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7110, -0.7032)
+  robot_position: (2.6132, 0.3102, 0.1299)
+  task_category: 0
+  task_id: '20251002_161427'
+  task_prompt: Approach a tomato plant in the northernmost row and take a close-up
+    tip camera image of the main tomato stem.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 2.610514127936195
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5649, 0.8251)
+  robot_position: (2.2135, 1.8915, 0.1299)
+  task_category: 0
+  task_id: '20251002_162139'
+  task_prompt: Navigate to the western most tomato plant in the southern row and use
+    the tip camera to photograph a thin tomato stem.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 8.39669317511697
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5961, -0.8029)
+  robot_position: (-2.6819, -1.3153, 0.1299)
+  task_category: 0
+  task_id: '20251002_162442'
+  task_prompt: Position yourself by a tomato plant in the northern row and capture
+    a detailed tip camera photo of a stem at a leaf junction.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 3.9126524779204908
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 50
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0013, 0.1299)
+  task_category: 1
+  task_id: '20251002_205834'
+  task_prompt: Move to a tomato plant in the northern most row and take tip camera
+    photos of a ripe tomato, a green tomato, and a yellow tomato.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 7.5347873994513295
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7151, 0.6990)
+  robot_position: (-2.4558, 1.6829, 0.1299)
+  task_category: 1
+  task_id: '20251002_210212'
+  task_prompt: Approach a tomato plant in the middle row and capture images of two
+    leaves and one stem using the tip camera.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 0.3857052012511852
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6578, -0.7532)
+  robot_position: (-2.6416, 1.8421, 0.1299)
+  task_category: 1
+  task_id: '20251002_210554'
+  task_prompt: Navigate near a tomato plant in the southernmost row and take tip camera
+    photos of three ripe tomatoes.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 3.485002370344792
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.5759, -0.8175)
+  robot_position: (-2.6910, -1.3150, 0.1299)
+  task_category: 1
+  task_id: '20251002_211148'
+  task_prompt: Go close to the easternmost tomato plant in the northernmost row and
+    capture detailed images of a green tomato, a leaf, and a stem.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 8.54100610726233
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5069, 0.8620)
+  robot_position: (2.1993, 1.8697, 0.1299)
+  task_category: 1
+  task_id: '20251002_211845'
+  task_prompt: Move near a tomato plant in the middle row and use the tip camera to
+    photograph three different leaves.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 0.9015764295519983
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.5830, -0.8125)
+  robot_position: (1.6796, 1.7891, 0.1299)
+  task_category: 1
+  task_id: '20251002_212252'
+  task_prompt: Go close to a tomato plant in the southern row and capture images of
+    three tomato stems using the tip camera.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 4.458788728811408
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 75
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.7586, -0.6516)
+  robot_position: (2.5683, -1.3232, 0.1299)
+  task_category: 1
+  task_id: '20251002_212549'
+  task_prompt: Position the tip camera toward a tomato plant in the northern row and
+    take photos of two yellow tomatoes and one ripe tomato.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 4.325990953080045
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.5730, 0.8196)
+  robot_position: (2.2716, 1.9921, 0.1299)
+  task_category: 1
+  task_id: '20251002_213504'
+  task_prompt: Navigate to a tomato plant in the middle row and take tip camera photos
+    of two green tomatoes and one yellow tomato.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 1.0655681993372692
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.8309, -0.5564)
+  robot_position: (1.7326, 1.7588, 0.1299)
+  task_category: 1
+  task_id: '20251002_213929'
+  task_prompt: Approach a tomato plant in the northern row and capture images of a
+    ripe tomato, a stem, and a leaf.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 0.21389191494113396
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 75
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0000, 0.0000, 0.7694, 0.6388)
+  robot_position: (1.6256, 1.6473, 0.1299)
+  task_category: 1
+  task_id: '20251002_214331'
+  task_prompt: Approach a tomato plant in the southernmost row and take detailed photos
+    of a yellow tomato, a ripe tomato, and a stem.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 4.6332524415043554
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9991, 0.1299)
+  task_category: 3
+  task_id: '20251002_225509'
+  task_prompt: 'Move to a lettuce plant, a tomato plant, and a bell-pepper plant and
+    capture three images from each: a lettuce head, a leaf, and a stem; a green tomato,
+    a tomato cluster, and a leaf; and a bell-pepper, a leaf, and a stem.'
+  tool_calls_count: 41
+  total_tokens: 0
+  traveled_distance: 7.962808735590497
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6420, 0.7667)
+  robot_position: (-2.2622, 1.2704, 0.1299)
+  task_category: 3
+  task_id: '20251002_231254'
+  task_prompt: 'Get close to a tomato plant, a bell-pepper plant, and another tomato
+    plant and take two photos from each: a tomato cluster and a leaf; a bell-pepper
+    and a stem; and a ripe tomato and a green tomato'
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 11.175252007892222
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7108, -0.7034)
+  robot_position: (-2.0098, -1.5916, 0.1299)
+  task_category: 3
+  task_id: '20251002_232500'
+  task_prompt: 'Move toward two bell-pepper plants and a tomato plant and take three
+    photos from each: a bell-pepper, a leaf, and a stem; a leaf, a bell-pepper, and
+    a stem; and a green tomato, a leaf, and a stem.'
+  tool_calls_count: 40
+  total_tokens: 0
+  traveled_distance: 3.305087122091012
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0015, 0.1299)
+  task_category: 1
+  task_id: '20251003_083505'
+  task_prompt: Position yourself by a tomato plant in the middle row and take tip
+    camera photos of a ripe tomato, a green tomato, and a leaf.
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 6.051780261035478
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.7534, -0.6575)
+  robot_position: (-2.3579, 0.2314, 0.1299)
+  task_category: 1
+  task_id: '20251003_084219'
+  task_prompt: Move to a tomato plant in the northernmost row and capture images of
+    two ripe tomatoes and one stem with the tip camera.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 2.3863815012036658
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0013, 0.1299)
+  task_category: 0
+  task_id: '20251003_100306'
+  task_prompt: Move near a tomato plant in the middle row and capture a tip camera
+    photo of a thick stem.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 6.089242827143102
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 75
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.7533, -0.6577)
+  robot_position: (-2.3569, 0.2320, 0.1299)
+  task_category: 1
+  task_id: '20251003_100640'
+  task_prompt: Position the tip camera toward a tomato plant in the northern row and
+    take photos of one green tomato and two stems.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 2.2568895968775724
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7169, 0.6971)
+  robot_position: (-2.4540, 1.6891, 0.1299)
+  task_category: 1
+  task_id: '20251003_100952'
+  task_prompt: Navigate near a tomato plant in the middle row and use the tip camera
+    to photograph three tomatoes.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 0.37874971585913525
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.6575, -0.7535)
+  robot_position: (-2.6280, 1.8676, 0.1299)
+  task_category: 1
+  task_id: '20251003_101300'
+  task_prompt: Move near a tomato plant in the southern row and capture images of
+    a ripe tomato, an unripe tomato, and a leaf.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 3.5002118078194386
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.5848, -0.8111)
+  robot_position: (-2.6970, -1.3183, 0.1299)
+  task_category: 1
+  task_id: '20251003_101641'
+  task_prompt: Approach a tomato plant in the middle row and take tip camera photos
+    of three red tomatoes.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 2.3090091001638458
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7570, -0.6534)
+  robot_position: (-2.3523, 0.2260, 0.1299)
+  task_category: 1
+  task_id: '20251003_102049'
+  task_prompt: Navigate to a tomato plant in the northernmost row and capture images
+    of a stem, a leaf, and a ripe tomato.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 2.2646034771029475
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7168, 0.6973)
+  robot_position: (-2.4469, 1.6931, 0.1299)
+  task_category: 1
+  task_id: '20251003_102453'
+  task_prompt: Go close to the westernmost tomato plant in the southern row and take
+    detailed tip camera photos of three unripe tomatoes.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 3.698575586072174
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5852, -0.8109)
+  robot_position: (-2.6984, -1.3176, 0.1299)
+  task_category: 1
+  task_id: '20251003_102804'
+  task_prompt: Position yourself by a tomato plant in the northern row and capture
+    images of three leaves using the tip camera.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 3.8140098260797544
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7176, 0.6965)
+  robot_position: (-2.4599, 1.6863, 0.1299)
+  task_category: 2
+  task_id: '20251003_103220'
+  task_prompt: Move to three tomato plants and take tip camera photos of a ripe tomato
+    on the first plant, a leaf on the second plant, and a stem on the third plant.
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 2.0029039477021904
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7114, -0.7028)
+  robot_position: (-1.4945, 1.6541, 0.1299)
+  task_category: 2
+  task_id: '20251003_104056'
+  task_prompt: Approach three tomato plants in different rows and capture a stem on
+    the first plant, a ripe tomato on the second plant, and a leaf on the third plant.
+  tool_calls_count: 20
+  total_tokens: 0
+  traveled_distance: 5.001379598913289
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.5870, -0.8096)
+  robot_position: (-2.6950, -1.3148, 0.1299)
+  task_category: 2
+  task_id: '20251003_104651'
+  task_prompt: Navigate to three tomato plants and photograph a green tomato on the
+    first plant, a ripe tomato on the second plant, and a stem on the third plant.
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 2.666010522628523
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0015, 0.1299)
+  task_category: 2
+  task_id: '20251003_113351'
+  task_prompt: Go close to three tomato plants in different rows and take tip camera
+    images of a leaf on the first plant, a ripe tomato on the second plant, and another
+    leaf on the third plant.
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 13.506105239238344
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 67
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0000, 0.6044, -0.7967)
+  robot_position: (-2.6874, 1.7820, 0.1299)
+  task_category: 2
+  task_id: '20251003_114059'
+  task_prompt: Position the tip camera toward three tomato plants and capture a green
+    tomato on the first plant, a stem on the second plant, and a ripe tomato on the
+    third plant.
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 1.6807730322622165
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7161, -0.6980)
+  robot_position: (-1.4902, 1.6543, 0.1299)
+  task_category: 2
+  task_id: '20251003_114942'
+  task_prompt: Move to three tomato plants in different rows and take tip camera photos
+    of a ripe tomato on the first plant, a leaf on the second plant, and a yellow
+    tomato on the third plant.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 5.024553874578918
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5901, -0.8073)
+  robot_position: (-2.6933, -1.3182, 0.1299)
+  task_category: 2
+  task_id: '20251003_115618'
+  task_prompt: Approach three tomato plants and capture a green tomato on the first
+    plant, a leaf on the second plant, and a stem on the third plant.
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 6.861765527878828
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 83
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.7265, -0.6871)
+  robot_position: (-0.9579, -1.2483, 0.1299)
+  task_category: 2
+  task_id: '20251003_120202'
+  task_prompt: Navigate to three tomato plants in different rows and photograph a
+    stem on the first plant, a ripe tomato on the second plant, and a yellow tomato
+    on the third plant.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 5.288347333307113
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.6112, -0.7914)
+  robot_position: (-2.6873, 1.7825, 0.1299)
+  task_category: 2
+  task_id: '20251003_120803'
+  task_prompt: Go near three tomato plants and take tip camera images of a leaf on
+    the first plant, a green tomato on the second plant, and a stem on the third plant.
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 1.6834755384935534
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7173, -0.6967)
+  robot_position: (-1.4912, 1.6545, 0.1299)
+  task_category: 2
+  task_id: '20251003_121621'
+  task_prompt: Position yourself by three tomato plants in different rows and capture
+    photos of a ripe tomato on the first plant, a leaf on the second plant, and a
+    stem on the third plant.
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 3.3494496058214214
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0014, 0.1299)
+  task_category: 3
+  task_id: '20251003_164459'
+  task_prompt: Move to three tomato plants and take tip camera photos of a ripe tomato,
+    a leaf, and a stem on the first plant; a green tomato, a leaf, and a stem on the
+    second plant; and a ripe tomato, a leaf, and a yellow tomato on the third plant.
+  tool_calls_count: 45
+  total_tokens: 0
+  traveled_distance: 25.44073554788431
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 92
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0014, 0.1299)
+  task_category: 3
+  task_id: '20251003_212442'
+  task_prompt: Approach three tomato plants in different rows and capture a ripe tomato,
+    a stem, and a leaf on the first plant; a green tomato, a ripe tomato, and a leaf
+    on the second plant; and a stem, a leaf, and a yellow tomato on the third plant.
+  tool_calls_count: 39
+  total_tokens: 0
+  traveled_distance: 8.666813198153175
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 92
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.5927, -0.8054)
+  robot_position: (-2.6905, 1.7768, 0.1299)
+  task_category: 3
+  task_id: '20251003_213649'
+  task_prompt: Navigate to three tomato plants and photograph a leaf, a green tomato,
+    and a stem on the first plant; a ripe tomato, a leaf, and a stem on the second
+    plant; and a ripe tomato, a stem, and a leaf on the third plant.
+  tool_calls_count: 31
+  total_tokens: 0
+  traveled_distance: 1.5576087993061585
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9956, 0.1299)
+  task_category: 3
+  task_id: '20251003_214454'
+  task_prompt: 'Navigate to three eggplant plants and take three photos from each
+    plant: an eggplant, a leaf, and a stem from the first; a leaf, a stem, and an
+    eggplant from the second; and an eggplant, a stem, and a leaf from the third.'
+  tool_calls_count: 41
+  total_tokens: 0
+  traveled_distance: 6.011750890740971
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7080, 0.7062)
+  robot_position: (-0.0000, -2.9965, 0.1299)
+  task_category: 3
+  task_id: '20251003_214454'
+  task_prompt: 'Navigate to three eggplant plants and take three photos from each
+    plant: an eggplant, a leaf, and a stem from the first; a leaf, a stem, and an
+    eggplant from the second; and an eggplant, a stem, and a leaf from the third.'
+  tool_calls_count: 43
+  total_tokens: 0
+  traveled_distance: 12.382618880644312
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7080, 0.7062)
+  robot_position: (0.0000, -2.9960, 0.1299)
+  task_category: 3
+  task_id: '20251003_214454'
+  task_prompt: 'Navigate to three eggplant plants and take three photos from each
+    plant: an eggplant, a leaf, and a stem from the first; a leaf, a stem, and an
+    eggplant from the second; and an eggplant, a stem, and a leaf from the third.'
+  tool_calls_count: 39
+  total_tokens: 0
+  traveled_distance: 12.410847898997106
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.3392, -0.9407)
+  robot_position: (-3.4812, 3.2554, 0.1299)
+  task_category: 3
+  task_id: '20251003_220039'
+  task_prompt: 'Move to two tomato plants and an eggplant plant and take two photos
+    from each: a ripe tomato and a stem from the first; a green tomato and a ripe
+    tomato from the second; and an eggplant and a stem from the third.'
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 10.675292745767218
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.3388, -0.9409)
+  robot_position: (-3.4808, 3.2548, 0.1299)
+  task_category: 3
+  task_id: '20251003_220039'
+  task_prompt: 'Move to two tomato plants and an eggplant plant and take two photos
+    from each: a ripe tomato and a stem from the first; a green tomato and a ripe
+    tomato from the second; and an eggplant and a stem from the third.'
+  tool_calls_count: 38
+  total_tokens: 0
+  traveled_distance: 20.298228111798196
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.3390, -0.9408)
+  robot_position: (-3.4814, 3.2554, 0.1299)
+  task_category: 3
+  task_id: '20251003_220039'
+  task_prompt: 'Move to two tomato plants and an eggplant plant and take two photos
+    from each: a ripe tomato and a stem from the first; a green tomato and a ripe
+    tomato from the second; and an eggplant and a stem from the third.'
+  tool_calls_count: 36
+  total_tokens: 0
+  traveled_distance: 15.22547491063904
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.6469, -0.7626)
+  robot_position: (-2.1206, -1.6304, 0.1299)
+  task_category: 3
+  task_id: '20251003_221836'
+  task_prompt: 'Navigate to a strawberry plant, a tomato plant, and an eggplant plant
+    and capture two images from each: a strawberry and a leaf ; a green tomato and
+    a ripe tomato; and an eggplant and a stem.'
+  tool_calls_count: 36
+  total_tokens: 0
+  traveled_distance: 16.967342870253926
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6456, -0.7636)
+  robot_position: (-2.1209, -1.6295, 0.1299)
+  task_category: 3
+  task_id: '20251003_221836'
+  task_prompt: 'Navigate to a strawberry plant, a tomato plant, and an eggplant plant
+    and capture two images from each: a strawberry and a leaf ; a green tomato and
+    a ripe tomato; and an eggplant and a stem.'
+  tool_calls_count: 37
+  total_tokens: 0
+  traveled_distance: 10.466042449515207
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6473, -0.7623)
+  robot_position: (-2.1206, -1.6304, 0.1299)
+  task_category: 3
+  task_id: '20251003_221836'
+  task_prompt: 'Navigate to a strawberry plant, a tomato plant, and an eggplant plant
+    and capture two images from each: a strawberry and a leaf ; a green tomato and
+    a ripe tomato; and an eggplant and a stem.'
+  tool_calls_count: 35
+  total_tokens: 0
+  traveled_distance: 6.567817746480677
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6631, 0.7486)
+  robot_position: (2.4483, -3.6113, 0.1299)
+  task_category: 3
+  task_id: '20251003_223407'
+  task_prompt: 'Drive up to three bell-pepper plants and capture two images from each
+    plant: a bell-pepper and a stem from the first; a bell-pepper and a leaf from
+    the second; and two bell-pepper from the third.'
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 11.603474094365023
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.6632, 0.7484)
+  robot_position: (2.4482, -3.6114, 0.1299)
+  task_category: 3
+  task_id: '20251003_223407'
+  task_prompt: 'Drive up to three bell-pepper plants and capture two images from each
+    plant: a bell-pepper and a stem from the first; a bell-pepper and a leaf from
+    the second; and two bell-pepper from the third.'
+  tool_calls_count: 34
+  total_tokens: 0
+  traveled_distance: 11.287512708587043
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6618, 0.7497)
+  robot_position: (2.4477, -3.6113, 0.1299)
+  task_category: 3
+  task_id: '20251003_223407'
+  task_prompt: 'Drive up to three bell-pepper plants and capture two images from each
+    plant: a bell-pepper and a stem from the first; a bell-pepper and a leaf from
+    the second; and two bell-pepper from the third.'
+  tool_calls_count: 26
+  total_tokens: 0
+  traveled_distance: 6.677130395624342
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0015, 0.1299)
+  task_category: 3
+  task_id: '20251004_112959'
+  task_prompt: Navigate to three tomato plants in different rows and photograph a
+    leaf, a green tomato, and a stem on the first plant; a ripe tomato, a leaf, and
+    a stem on the second plant; and a ripe tomato, a stem, and a leaf on the third
+    plant.
+  tool_calls_count: 44
+  total_tokens: 0
+  traveled_distance: 13.469846231046331
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0002, 0.4039, -0.9148)
+  robot_position: (-2.9659, 0.4640, 0.1299)
+  task_category: 3
+  task_id: '20251004_114451'
+  task_prompt: Go near three tomato plants and take tip camera photos of a green tomato,
+    a leaf, and a stem on the first plant; a ripe tomato, a leaf, and a yellow tomato
+    on the second plant; and a stem, a leaf, and a ripe tomato on the third plant.
+  tool_calls_count: 40
+  total_tokens: 0
+  traveled_distance: 4.696071512872239
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 92
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0001, 0.6613, 0.7501)
+  robot_position: (-1.5984, -1.3015, 0.1299)
+  task_category: 3
+  task_id: '20251004_115607'
+  task_prompt: Position the tip camera toward three tomato plants in different rows
+    and capture a ripe tomato, a stem, and a leaf on the first plant; a leaf, a green
+    tomato, and a stem on the second plant; and a ripe tomato, a yellow tomato, and
+    a leaf on the third plant.
+  tool_calls_count: 36
+  total_tokens: 0
+  traveled_distance: 10.376711061767963
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7619, 0.6477)
+  robot_position: (2.1358, -2.7439, 0.1299)
+  task_category: 3
+  task_id: '20251004_200644'
+  task_prompt: Approach three tomato plants in different rows  and capture a ripe
+    tomato, a leaf, and a stem on the first plant; a green tomato, a leaf, and a ripe
+    tomato on the second plant; and a stem, a yellow tomato, and a leaf on the third
+    plant.
+  tool_calls_count: 41
+  total_tokens: 0
+  traveled_distance: 6.738031303234312
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.8030, -0.5959)
+  robot_position: (2.7395, 1.7877, 0.1299)
+  task_category: 3
+  task_id: '20251004_201922'
+  task_prompt: Navigate to three tomato plants and photograph a leaf, a stem, and
+    a ripe tomato on the first plant; a green tomato, a stem, and a leaf on the second
+    plant; and a ripe tomato, a leaf, and a yellow tomato on the third plant.
+  tool_calls_count: 37
+  total_tokens: 0
+  traveled_distance: 4.934911403194576
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6991, 0.7150)
+  robot_position: (1.4881, 0.2949, 0.1299)
+  task_category: 3
+  task_id: '20251004_202955'
+  task_prompt: Go close to three tomato plants in different rows and take tip camera
+    photos of a stem, a green tomato, and a leaf on the first plant; a ripe tomato,
+    a leaf, and a stem on the second plant; and a yellow tomato, a leaf, and a ripe
+    tomato on the third plant.
+  tool_calls_count: 37
+  total_tokens: 0
+  traveled_distance: 5.230905023112105
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse11
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9998, 0.1299)
+  task_category: 1
+  task_id: '20251006_142552'
+  task_prompt: Go close to the easternmost tomato plant in the southernmost row and
+    capture images of two leaves and a ripe tomato with the tip camera.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 4.331522137931316
+  use_demonstrations: false
+  user_name: Kendall
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6480, 0.7617)
+  robot_position: (-2.6278, -3.2103, 0.1299)
+  task_category: 3
+  task_id: '20251006_160339'
+  task_prompt: 'Go near three strawberry plants and capture two images from each plant:
+    a cluster of strawberries and a cluster of leaves'
+  tool_calls_count: 28
+  total_tokens: 0
+  traveled_distance: 9.995012359009136
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6479, 0.7617)
+  robot_position: (-2.6279, -3.2117, 0.1299)
+  task_category: 3
+  task_id: '20251006_160339'
+  task_prompt: 'Go near three strawberry plants and capture two images from each plant:
+    a cluster of strawberries and a cluster of leaves'
+  tool_calls_count: 36
+  total_tokens: 0
+  traveled_distance: 15.361610777852825
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6479, 0.7617)
+  robot_position: (-2.6279, -3.2111, 0.1299)
+  task_category: 3
+  task_id: '20251006_160339'
+  task_prompt: 'Go near three strawberry plants and capture two images from each plant:
+    a cluster of strawberries and a cluster of leaves'
+  tool_calls_count: 38
+  total_tokens: 0
+  traveled_distance: 18.494761793435856
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7096, -0.7046)
+  robot_position: (3.0161, -1.6606, 0.1299)
+  task_category: 3
+  task_id: '20251006_161432'
+  task_prompt: Approach two clusters of lettuce plants and capture two close-up views
+    of lettuce heads from each with the tip camera.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 9.754556337769067
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7086, -0.7056)
+  robot_position: (3.0158, -1.6599, 0.1299)
+  task_category: 3
+  task_id: '20251006_161432'
+  task_prompt: Approach two clusters of lettuce plants and capture two close-up views
+    of lettuce heads from each with the tip camera.
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 12.68075104781504
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7087, -0.7055)
+  robot_position: (3.0158, -1.6600, 0.1299)
+  task_category: 3
+  task_id: '20251006_161432'
+  task_prompt: Approach two clusters of lettuce plants and capture two close-up views
+    of lettuce heads from each with the tip camera.
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 12.500268513502927
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8724, -0.4888)
+  robot_position: (-0.8786, 3.6592, 0.1299)
+  task_category: 3
+  task_id: '20251006_162520'
+  task_prompt: 'Position the tip camera toward a tomato plant, a bell-pepper plant,
+    and a strawberry plant and take two photos from each: a green and a ripe tomato;
+    a bell-pepper and a stem; and a  cluster of strawberries and another of leaves.'
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 9.342778838899356
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v3
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8722, -0.4892)
+  robot_position: (-0.8788, 3.6593, 0.1299)
+  task_category: 3
+  task_id: '20251006_162520'
+  task_prompt: 'Position the tip camera toward a tomato plant, a bell-pepper plant,
+    and a strawberry plant and take two photos from each: a green and a ripe tomato;
+    a bell-pepper and a stem; and a  cluster of strawberries and another of leaves.'
+  tool_calls_count: 41
+  total_tokens: 0
+  traveled_distance: 15.207389095240853
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v2
+  completeness_score: 100
+  environment_name: greenhouse10
+  load_gt_objects: false
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8721, -0.4892)
+  robot_position: (-0.8789, 3.6590, 0.1299)
+  task_category: 3
+  task_id: '20251006_162520'
+  task_prompt: 'Position the tip camera toward a tomato plant, a bell-pepper plant,
+    and a strawberry plant and take two photos from each: a green and a ripe tomato;
+    a bell-pepper and a stem; and a  cluster of strawberries and another of leaves.'
+  tool_calls_count: 35
+  total_tokens: 0
+  traveled_distance: 9.679685912831294
+  use_demonstrations: false
+  user_name: jose
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9959, 0.1299)
+  task_category: 0
+  task_id: '20251007_151805'
+  task_prompt: Approach a tomato plant and capture a tip camera photo of an unripe
+    tomato.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 5.882841751602019
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.7382, -0.6745)
+  robot_position: (-0.9129, -1.1618, 0.1299)
+  task_category: 0
+  task_id: '20251007_153742'
+  task_prompt: Move to an eggplant plant and take a tip camera photo of an eggplant
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 5.458231214904147
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0001, 0.4557, -0.8901)
+  robot_position: (-0.3200, 0.0172, 0.1299)
+  task_category: 0
+  task_id: '20251007_154950'
+  task_prompt: Navigate near a tomato plant and take a tip camera photo of a leaf
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 7.955662066578954
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8820, 0.4713)
+  robot_position: (0.4187, -2.7171, 0.1299)
+  task_category: 0
+  task_id: '20251007_155559'
+  task_prompt: Approach an eggplant plant and photograph a leaf with the tip camera.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 5.459881541723559
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7168, 0.6973)
+  robot_position: (0.9825, -1.2391, 0.1299)
+  task_category: 0
+  task_id: '20251007_160319'
+  task_prompt: Go close to a tomato plant and photograph a stem using the tip camera.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 3.667195872933953
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8162, 0.5777)
+  robot_position: (2.1893, -2.7167, 0.1299)
+  task_category: 0
+  task_id: '20251007_161124'
+  task_prompt: Navigate near an eggplant plant and take a tip camera image of a stem.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 3.8885038636628275
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.7511, -0.6602)
+  robot_position: (2.1020, 0.1750, 0.1299)
+  task_category: 0
+  task_id: '20251007_162257'
+  task_prompt: Position the tip camera toward a tomato plant and capture a ripe tomato.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 3.8263134861223858
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.8114, 0.5845)
+  robot_position: (2.1953, -2.7170, 0.1299)
+  task_category: 0
+  task_id: '20251007_162938'
+  task_prompt: Go close to an eggplant plant and capture an eggplant using the tip
+    camera.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 6.193734456086387
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5152, -0.8571)
+  robot_position: (-0.2675, 0.0676, 0.1299)
+  task_category: 0
+  task_id: '20251007_163718'
+  task_prompt: Move to a bell pepper plant and take a tip camera photo of a red pepper.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 6.371241655845877
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5294, -0.8484)
+  robot_position: (-0.3165, 1.7643, 0.1299)
+  task_category: 0
+  task_id: '20251007_164326'
+  task_prompt: Position the tip camera toward an eggplant plant and photograph a leaf.
+  tool_calls_count: 8
+  total_tokens: 0
+  traveled_distance: 4.446901687189531
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.6588, -0.7523)
+  robot_position: (-2.1034, 0.1422, 0.1299)
+  task_category: 0
+  task_id: '20251007_164837'
+  task_prompt: Approach a bell pepper plant and capture a tip camera image of a leaf.
+  tool_calls_count: 11
+  total_tokens: 0
+  traveled_distance: 7.779445785415551
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 87
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0000, 0.8760, 0.4822)
+  robot_position: (2.0699, -0.0454, 0.1299)
+  task_category: 0
+  task_id: '20251007_165428'
+  task_prompt: Position the tip camera toward an eggplant plant and photograph an
+    eggplant.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 3.098973126151741
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7664, -0.6424)
+  robot_position: (-0.9022, 0.1426, 0.1299)
+  task_category: 0
+  task_id: '20251007_170246'
+  task_prompt: Navigate near a bell pepper plant and photograph a stem using the tip
+    camera.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 6.452067670032707
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8837, -0.4681)
+  robot_position: (1.4233, 1.6751, 0.1299)
+  task_category: 0
+  task_id: '20251007_171411'
+  task_prompt: Move to a tomato plant and take a tip camera photo of an unripe tomato.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 14.338761468223387
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0019, 0.1299)
+  task_category: 0
+  task_id: '20251008_053552'
+  task_prompt: Position the tip camera toward a bell pepper plant and photograph a
+    leaf.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 9.302659038101838
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 0
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 2
+  robot_orientation: (-0.0001, -0.0001, 0.7958, -0.6055)
+  robot_position: (2.2258, 3.3884, 0.1299)
+  task_category: 0
+  task_id: '20251008_054416'
+  task_prompt: Navigate to a bell pepper plant and photograph a red pepper with the
+    tip camera.
+  tool_calls_count: 7
+  total_tokens: 0
+  traveled_distance: 0.0002791743607842056
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7959, -0.6055)
+  robot_position: (2.2259, 3.3888, 0.1299)
+  task_category: 0
+  task_id: '20251008_054854'
+  task_prompt: Approach an eggplant plant and capture a tip camera photo of a stem.
+  tool_calls_count: 1
+  total_tokens: 0
+  traveled_distance: 0.0
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0016, 0.1299)
+  task_category: 0
+  task_id: '20251008_062823'
+  task_prompt: Approach an eggplant plant and capture a tip camera photo of a stem.
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 7.205459397638274
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7145, -0.6996)
+  robot_position: (-0.9879, 0.1017, 0.1299)
+  task_category: 0
+  task_id: '20251008_063620'
+  task_prompt: Go close to a bell pepper plant and take a tip camera photo of a yellow
+    pepper.
+  tool_calls_count: 9
+  total_tokens: 0
+  traveled_distance: 5.721727858551379
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 82
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, 0.0001, 0.5595, 0.8288)
+  robot_position: (-0.3307, 1.6284, 0.1299)
+  task_category: 0
+  task_id: '20251008_064015'
+  task_prompt: Navigate to a bell pepper plant and photograph a red pepper with the
+    tip camera.
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 0.18115239845138295
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5277, -0.8494)
+  robot_position: (-0.2951, 1.7517, 0.1299)
+  task_category: 0
+  task_id: '20251008_064659'
+  task_prompt: Go near a tomato plant and take a tip camera image of a leaf.
+  tool_calls_count: 10
+  total_tokens: 0
+  traveled_distance: 7.2859515414579485
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9999, 0.1299)
+  task_category: 1
+  task_id: '20251009_171953'
+  task_prompt: '0'
+  tool_calls_count: 15
+  total_tokens: 0
+  traveled_distance: 4.651660802524307
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.5033, -0.8641)
+  robot_position: (-2.2757, -1.2190, 0.1299)
+  task_category: 1
+  task_id: '20251009_172836'
+  task_prompt: Approach a tomato plant and capture images of an unripe tomato, a leaf,
+    and a stem.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 1.577140865944239
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 85
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.7413, -0.6711)
+  robot_position: (-1.8841, 1.6919, 0.1299)
+  task_category: 1
+  task_id: '20251009_175127'
+  task_prompt: Navigate near a bell pepper plant and photograph two red peppers and
+    a leaf.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 0.007175081175877858
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7337, -0.6795)
+  robot_position: (-1.8864, 1.6978, 0.1299)
+  task_category: 1
+  task_id: '20251009_175554'
+  task_prompt: Approach an eggplant plant and take tip camera photos of an eggplant,
+    a leaf, and a stem.
+  tool_calls_count: 34
+  total_tokens: 0
+  traveled_distance: 3.534830223566164
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6800, -0.7332)
+  robot_position: (-2.0653, 0.4145, 0.1299)
+  task_category: 1
+  task_id: '20251009_180834'
+  task_prompt: Position the tip camera toward a bell pepper plant and photograph a
+    stem, a leaf, and a red pepper.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 3.7899998567964466
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7243, -0.6895)
+  robot_position: (-0.9573, 1.7482, 0.1299)
+  task_category: 1
+  task_id: '20251009_181723'
+  task_prompt: Navigate near an eggplant plant and capture an eggplant, a stem, and
+    a leaf.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 4.863839217444112
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9989, 0.1299)
+  task_category: 1
+  task_id: '20251010_201758'
+  task_prompt: Navigate near a tomato plant and photograph a ripe tomato, an unripe
+    tomato, and a leaf.
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 0.6257309063426344
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8549, 0.5188)
+  robot_position: (0.3591, -2.7522, 0.1299)
+  task_category: 1
+  task_id: '20251010_202925'
+  task_prompt: Move to an eggplant plant and photograph an eggplant, a leaf, and a
+    stem.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 6.555438472797551
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6382, -0.7698)
+  robot_position: (-2.1214, 0.1773, 0.1299)
+  task_category: 1
+  task_id: '20251010_203806'
+  task_prompt: Go close to a tomato plant and take tip camera photos of a stem, a
+    ripe tomato, and a leaf.
+  tool_calls_count: 13
+  total_tokens: 0
+  traveled_distance: 3.655996595250793
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7343, -0.6788)
+  robot_position: (-0.9070, -1.1596, 0.1299)
+  task_category: 1
+  task_id: '20251010_205038'
+  task_prompt: Move to a bell pepper plant and take tip camera photos of a red pepper,
+    a leaf, and a stem.
+  tool_calls_count: 16
+  total_tokens: 0
+  traveled_distance: 5.6759650127350065
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0002, -0.0001, 0.7575, -0.6529)
+  robot_position: (-1.8742, 1.7326, 0.1299)
+  task_category: 1
+  task_id: '20251010_210238'
+  task_prompt: Position the tip camera toward a tomato plant and capture a leaf, a
+    ripe tomato, and an unripe tomato.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 5.569971832038269
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7357, -0.6773)
+  robot_position: (-0.8932, -1.1791, 0.1299)
+  task_category: 1
+  task_id: '20251010_211554'
+  task_prompt: Approach an eggplant plant and take tip camera photos of a leaf, an
+    eggplant, and a stem.
+  tool_calls_count: 18
+  total_tokens: 0
+  traveled_distance: 2.028979267683205
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6519, 0.7583)
+  robot_position: (0.8983, -1.2989, 0.1299)
+  task_category: 1
+  task_id: '20251010_212540'
+  task_prompt: Approach a bell pepper plant and photograph a yellow pepper, a leaf,
+    and a stem.
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 6.220150698213201
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0001, 0.7080, 0.7063)
+  robot_position: (0.9889, 1.6877, 0.1299)
+  task_category: 1
+  task_id: '20251010_213332'
+  task_prompt: Navigate near a bell pepper plant and capture a red pepper, a stem,
+    and a leaf.
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 1.4551002763112495
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7150, -0.6991)
+  robot_position: (-0.9939, 0.0801, 0.1299)
+  task_category: 1
+  task_id: '20251010_214818'
+  task_prompt: Go close to an eggplant plant and take tip camera photos of a stem,
+    a leaf, and an eggplant.
+  tool_calls_count: 12
+  total_tokens: 0
+  traveled_distance: 0.0011570809532193114
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7134, -0.7007)
+  robot_position: (-0.9945, 0.0804, 0.1299)
+  task_category: 1
+  task_id: '20251010_215153'
+  task_prompt: Move to a tomato plant and capture a ripe tomato, an unripe tomato,
+    and a leaf.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 4.919827527619183
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7356, -0.6774)
+  robot_position: (-0.8922, -1.1761, 0.1299)
+  task_category: 1
+  task_id: '20251010_215801'
+  task_prompt: Go close to a bell pepper plant and take tip camera photos of a leaf,
+    a red pepper, and a yellow pepper.
+  tool_calls_count: 26
+  total_tokens: 0
+  traveled_distance: 7.3579738849674365
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.9155, 0.4023)
+  robot_position: (-0.2406, 1.6575, 0.1299)
+  task_category: 1
+  task_id: '20251010_221226'
+  task_prompt: Position the tip camera toward an eggplant plant and photograph a leaf,
+    a stem, and an eggplant.
+  tool_calls_count: 14
+  total_tokens: 0
+  traveled_distance: 6.368865861559126
+  use_demonstrations: false
+  user_name: 'aditya '
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.4652, -0.8852)
+  robot_position: (-0.3293, 0.0061, 0.1299)
+  task_category: 1
+  task_id: '20251010_221906'
+  task_prompt: Position the tip camera toward an eggplant plant and photograph an
+    eggplant, a stem, and a leaf.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 1.9713403132122531
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -2.9999, 0.1299)
+  task_category: 2
+  task_id: '20251020_193017'
+  task_prompt: ''
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 7.962414371610115
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5217, -0.8531)
+  robot_position: (0.6419, -1.2269, 0.1299)
+  task_category: 2
+  task_id: '20251020_193930'
+  task_prompt: Approach two tomato plants and one eggplant plant, and capture a ripe
+    tomato, a leaf on the second tomato, and an eggplant.
+  tool_calls_count: 22
+  total_tokens: 0
+  traveled_distance: 7.793135007653597
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7601, -0.6499)
+  robot_position: (2.1064, 0.1800, 0.1299)
+  task_category: 2
+  task_id: '20251020_194825'
+  task_prompt: Navigate near a tomato plant, an eggplant plant, and a bell pepper
+    plant, and photograph a stem on the tomato, an eggplant, and a red pepper.
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 12.102408672598036
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5834, -0.8122)
+  robot_position: (0.7160, -1.1865, 0.1299)
+  task_category: 2
+  task_id: '20251020_195653'
+  task_prompt: Go close to three bell pepper plants and take tip camera photos of
+    a red pepper on the first, a yellow pepper on the second, and a leaf on the third.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 7.989337974056674
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6164, 0.7874)
+  robot_position: (-0.2554, 1.6623, 0.1299)
+  task_category: 2
+  task_id: '20251020_200659'
+  task_prompt: Position the tip camera toward two eggplant plants and one tomato plant,
+    and capture an eggplant, a leaf on the second eggplant, and a ripe tomato.
+  tool_calls_count: 27
+  total_tokens: 0
+  traveled_distance: 20.355379114574205
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.5690, -0.8224)
+  robot_position: (-2.2779, -1.2326, 0.1299)
+  task_category: 2
+  task_id: '20251020_201609'
+  task_prompt: Move to three tomato plants and photograph an unripe tomato, a leaf,
+    and a stem.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 13.528604662736436
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (0.0000, 0.0000, 0.5724, -0.8200)
+  robot_position: (0.7089, -1.1809, 0.1299)
+  task_category: 3
+  task_id: '20251020_202448'
+  task_prompt: Approach one tomato plant and two bell pepper plants, and take tip
+    camera photos of a ripe tomato, a red pepper, and a yellow pepper.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 8.717306388942875
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0012, 0.1299)
+  task_category: 2
+  task_id: '20251020_203840'
+  task_prompt: Navigate near a tomato plant, an eggplant plant, and a bell pepper
+    plant, and photograph a leaf on the tomato, a stem on the eggplant, and a red
+    pepper.
+  tool_calls_count: 25
+  total_tokens: 0
+  traveled_distance: 13.25858188877375
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.7038, 0.7104)
+  robot_position: (0.9929, -1.2608, 0.1299)
+  task_category: 2
+  task_id: '20251020_204615'
+  task_prompt: Go close to three eggplant plants and take tip camera photos of an
+    eggplant, a leaf, and a stem.
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 17.623648209092085
+  use_demonstrations: false
+  user_name: adity
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 89
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0000, 0.8861, -0.4635)
+  robot_position: (1.4230, 1.6768, 0.1299)
+  task_category: 2
+  task_id: '20251020_210352'
+  task_prompt: Position the tip camera toward two bell pepper plants and one tomato
+    plant, and capture a red pepper, a leaf, and an unripe tomato.
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 11.407217268066706
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0009, 0.1299)
+  task_category: 2
+  task_id: '20251021_033900'
+  task_prompt: Move to three tomato plants and photograph a leaf, a ripe tomato, and
+    a stem.
+  tool_calls_count: 17
+  total_tokens: 0
+  traveled_distance: 7.374223659654487
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.6342, -0.7731)
+  robot_position: (-2.1767, -1.1734, 0.1299)
+  task_category: 2
+  task_id: '20251021_034617'
+  task_prompt: Approach one tomato plant, one eggplant plant, and one bell pepper
+    plant, and capture an unripe tomato, an eggplant, and a yellow pepper.
+  tool_calls_count: 28
+  total_tokens: 0
+  traveled_distance: 7.015309623205957
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7127, -0.7015)
+  robot_position: (-1.9991, 3.2098, 0.1299)
+  task_category: 2
+  task_id: '20251021_035634'
+  task_prompt: Navigate near two tomato plants and one bell pepper plant, and take
+    tip camera photos of a ripe tomato, a leaf on the second tomato, and a red pepper.
+  tool_calls_count: 19
+  total_tokens: 0
+  traveled_distance: 14.834087069180734
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0000, 0.8884, -0.4591)
+  robot_position: (1.4255, 1.6771, 0.1299)
+  task_category: 2
+  task_id: '20251021_040845'
+  task_prompt: Go close to three bell pepper plants and photograph a yellow pepper,
+    a stem, and a leaf.
+  tool_calls_count: 23
+  total_tokens: 0
+  traveled_distance: 12.00591259309342
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.7795, 0.6264)
+  robot_position: (-0.8416, 1.7360, 0.1299)
+  task_category: 2
+  task_id: '20251021_042114'
+  task_prompt: Position the tip camera toward one tomato plant and two eggplant plants,
+    and capture a ripe tomato, an eggplant, and a leaf on the second eggplant.
+  tool_calls_count: 24
+  total_tokens: 0
+  traveled_distance: 12.819389487779976
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0015, 0.1299)
+  task_category: 3
+  task_id: '20251021_154009'
+  task_prompt: Move to a tomato plant, an eggplant plant, and a bell pepper plant,
+    and take three tip camera photos per plant. At the tomato plant, capture one ripe
+    tomato, one leaf, and one stem. At the eggplant plant, take one eggplant, one
+    leaf, and one stem. At the bell pepper plant, take one red pepper, one leaf, and
+    one stem.
+  tool_calls_count: 21
+  total_tokens: 0
+  traveled_distance: 7.0955182258290135
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7915, -0.6111)
+  robot_position: (-2.2692, 0.2112, 0.1299)
+  task_category: 3
+  task_id: '20251021_154901'
+  task_prompt: Approach three tomato plants and take three tip camera photos per plant.
+    At the first tomato plant, capture one ripe tomato, one leaf, and one stem. At
+    the second tomato plant, take one unripe tomato, one leaf, and one stem. At the
+    third tomato plant, capture one leaf, one leaf, and one stem.
+  tool_calls_count: 29
+  total_tokens: 0
+  traveled_distance: 5.475664811852863
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5215, -0.8532)
+  robot_position: (0.6410, -1.2255, 0.1299)
+  task_category: 3
+  task_id: '20251021_160044'
+  task_prompt: Navigate near two bell pepper plants and one tomato plant, and take
+    three tip camera photos per plant. At the first bell pepper plant, capture one
+    red pepper, one leaf, and one stem. At the second bell pepper plant, take one
+    yellow pepper, one leaf, and one stem. At the tomato plant, capture one ripe tomato,
+    one leaf, and one stem.
+  tool_calls_count: 34
+  total_tokens: 0
+  traveled_distance: 13.899271108752655
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, -0.0000, 0.5748, -0.8183)
+  robot_position: (-2.2684, -1.2263, 0.1299)
+  task_category: 3
+  task_id: '20251021_161339'
+  task_prompt: Go close to one tomato plant and two eggplant plants, and take three
+    tip camera photos per plant. At the tomato plant, capture one ripe tomato, one
+    leaf, and one stem. At the first eggplant plant, take one eggplant, one leaf,
+    and one stem. At the second eggplant plant, take one eggplant, one leaf, and one
+    stem.
+  tool_calls_count: 30
+  total_tokens: 0
+  traveled_distance: 6.819722094586777
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7162, -0.6979)
+  robot_position: (2.0166, 0.1359, 0.1299)
+  task_category: 3
+  task_id: '20251021_162140'
+  task_prompt: Position the tip camera toward three bell pepper plants and take three
+    tip camera photos per plant. At the first bell pepper plant, capture one red pepper,
+    one leaf, and one stem. At the second bell pepper plant, take one yellow pepper,
+    one leaf, and one stem. At the third bell pepper plant, take one leaf, one leaf,
+    and one stem.
+  tool_calls_count: 31
+  total_tokens: 0
+  traveled_distance: 9.459685029578042
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0001, 0.6128, 0.7902)
+  robot_position: (-0.2402, 1.6512, 0.1299)
+  task_category: 3
+  task_id: '20251021_163129'
+  task_prompt: Move to a tomato plant, an eggplant plant, and a bell pepper plant,
+    and take three tip camera photos per plant. At the tomato plant, capture one ripe
+    tomato, one leaf, and one stem. At the eggplant plant, take one eggplant, one
+    leaf, and one stem. At the bell pepper plant, take one red pepper, one leaf, and
+    one stem.
+  tool_calls_count: 25
+  total_tokens: 0
+  traveled_distance: 11.774102046581337
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, 0.0000, 0.7080, 0.7063)
+  robot_position: (0.0000, -3.0014, 0.1299)
+  task_category: 3
+  task_id: '20251022_053900'
+  task_prompt: Move to one tomato plant, one eggplant plant, and one bell pepper plant,
+    and take three tip camera photos per plant. At the tomato plant, capture one ripe
+    tomato, one leaf, and one stem. At the eggplant plant, take one eggplant, one
+    leaf, and one stem. At the bell pepper plant, capture one yellow pepper, one leaf,
+    and one stem.
+  tool_calls_count: 31
+  total_tokens: 0
+  traveled_distance: 11.789373001147881
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7152, -0.6990)
+  robot_position: (-1.9906, 3.2086, 0.1299)
+  task_category: 3
+  task_id: '20251022_055612'
+  task_prompt: Approach three tomato plants and take three tip camera photos per plant.
+    At the first tomato plant, capture one ripe tomato, one leaf, and one stem. At
+    the second tomato plant, take one unripe tomato, one leaf, and one stem. At the
+    third tomato plant, capture one leaf, one leaf, and one stem.
+  tool_calls_count: 35
+  total_tokens: 0
+  traveled_distance: 13.514329271961012
+  use_demonstrations: false
+  user_name: aditya
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0000, 0.0000, 0.8422, 0.5391)
+  robot_position: (0.3708, -2.7659, 0.1299)
+  task_category: 3
+  task_id: '20251022_060707'
+  task_prompt: Navigate near two tomato plants and one bell pepper plant, and take
+    three tip camera photos per plant. At the first tomato plant, capture one ripe
+    tomato, one leaf, and one stem. At the second tomato plant, take one unripe tomato,
+    one leaf, and one stem. At the bell pepper plant, capture one red pepper, one
+    leaf, and one stem.
+  tool_calls_count: 37
+  total_tokens: 0
+  traveled_distance: 13.210510612410728
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 0
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 2
+  robot_orientation: (-0.0001, -0.0001, 0.7611, -0.6486)
+  robot_position: (-1.8883, 1.7200, 0.1299)
+  task_category: 3
+  task_id: '20251022_062158'
+  task_prompt: aditya
+  tool_calls_count: 55
+  total_tokens: 0
+  traveled_distance: 28.814039976948166
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 100
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 0
+  robot_orientation: (-0.0001, -0.0001, 0.7611, -0.6486)
+  robot_position: (-1.8883, 1.7200, 0.1299)
+  task_category: 3
+  task_id: '20251022_062158'
+  task_prompt: aditya
+  tool_calls_count: 32
+  total_tokens: 0
+  traveled_distance: 17.93366434242264
+  use_demonstrations: false
+  user_name: ''
+- agent_mode: navigation_manipulation_mode_v1
+  completeness_score: 94
+  environment_name: greenhouse12
+  load_gt_objects: true
+  reset_cause: 1
+  robot_orientation: (-0.0001, -0.0001, 0.7619, -0.6477)
+  robot_position: (2.1192, 0.1797, 0.1299)
+  task_category: 3
+  task_id: '20251022_064719'
+  task_prompt: Position the tip camera toward three eggplant plants and take three
+    tip camera photos per plant. At the first eggplant plant, capture one eggplant,
+    one leaf, and one stem. At the second eggplant plant, take one eggplant, one leaf,
+    and one stem. At the third eggplant plant, take one eggplant, one leaf, and one
+    stem.
+  tool_calls_count: 32
+  total_tokens: 0
+  traveled_distance: 4.616252025181099
+  use_demonstrations: false
+  user_name: aditya

@@ -14,6 +14,10 @@ These demonstrations serve as additional information for the few-shot VLM in our
 ## Tools description
 We provide the perception and action tool descriptions in JSON schema format, compatible with the OpenAI API.
 
+## Evaluation
+We provide the task prompts used in each environment in a JSON file (evaluation/unique_tasks_prompts.json), along with scripts to compute the evaluation metrics (evaluation/evaluation.py).
+You can download the output metadata for all episodes [here](https://uofi.box.com/s/sa1thpsv15b7ru0lo0vwflmw8qqf8fgl).
+
 ## Gazebo Environments
 We provide the .world files for the three Gazebo simulation environments used in our evaluation:
 - greenhouse10.world: complex polyculture environment

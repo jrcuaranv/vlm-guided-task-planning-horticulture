@@ -1,0 +1,1016 @@
+{
+    "greenhouse10": {
+        "category_0": [
+            {
+                "task_id": "20250922_122157",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Move to a tomato plant and get a photo of a ripe tomato using the tip camera."
+            },
+            {
+                "task_id": "20250922_124655",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Drive up to a bell-pepper plant and take a photo of a bell-pepper."
+            },
+            {
+                "task_id": "20250922_125047",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Go to a lettuce plant and take a close-up photo of a leaf."
+            },
+            {
+                "task_id": "20250922_125532",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Approach a tomato plant and take a close-up photo of a green tomato with the tip camera."
+            },
+            {
+                "task_id": "20250922_131134",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Move to a bell-pepper plant and capture a close-up image of a leaf."
+            },
+            {
+                "task_id": "20250922_131528",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Get close to a strawberry plant and take a picture of a strawberry."
+            },
+            {
+                "task_id": "20250922_132129",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Move to an eggplant plant and take a photo of an eggplant using the tip camera."
+            },
+            {
+                "task_id": "20250922_132525",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Move toward a lettuce plant and capture a photo of a lettuce head using the tip camera."
+            },
+            {
+                "task_id": "20250922_132929",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Drive up to a tomato plant and capture a photo of a leaf."
+            },
+            {
+                "task_id": "20250922_133333",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Approach an eggplant plant and capture an image of a leaf."
+            },
+            {
+                "task_id": "20250922_134649",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Approach a strawberry plant and capture a close-up photo of a strawberry leaf."
+            },
+            {
+                "task_id": "20250924_230030",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Get close to an eggplant plant and take a detailed photo of a stem."
+            },
+            {
+                "task_id": "20250924_230716",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Focus the tip camera on a strawberry and take a picture."
+            },
+            {
+                "task_id": "20250924_231144",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera to take a photo of a lettuce plant."
+            },
+            {
+                "task_id": "20250924_231632",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Navigate to a bell-pepper plant and take a picture of a leaf using the tip camera."
+            },
+            {
+                "task_id": "20250924_231929",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Navigate to a tomato plant and capture an image of a tomato cluster using the tip camera."
+            },
+            {
+                "task_id": "20250924_232234",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Approach a bell-pepper plant and get a photo of its stem using the tip camera."
+            },
+            {
+                "task_id": "20250925_151206",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Go near a tomato plant and take a detailed photo of a leaf with the tip camera."
+            },
+            {
+                "task_id": "20250925_151543",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Navigate to a strawberry plant and capture a close-up photo of a leaf with the tip camera."
+            },
+            {
+                "task_id": "20250925_152246",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera toward a stem on a tomato plant and capture a photo."
+            },
+            {
+                "task_id": "20250930_101624",
+                "environment_name": "greenhouse10",
+                "task_category": 0,
+                "task_prompt": "move to the tomato plants and get a close-up view of a ripe tomato"
+            }
+        ],
+        "category_1": [
+            {
+                "task_id": "20250922_144822",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Move to a tomato plant and take photos of two ripe tomatoes and a leaf using the tip camera."
+            },
+            {
+                "task_id": "20250922_154003",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant and capture images of one green tomato, a stem, and a leaf."
+            },
+            {
+                "task_id": "20250922_155756",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Go near a tomato plant and take detailed photos of two leaves and a stem"
+            },
+            {
+                "task_id": "20250922_162221",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Drive up to a bell-pepper plant and take photos of two bell-peppers and a leaf."
+            },
+            {
+                "task_id": "20250925_152817",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Move to an eggplant plant and take photos of two eggplants and a leaf using the tip camera."
+            },
+            {
+                "task_id": "20250925_153839",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Go to the lettuce plants and take close-up photos of two of them"
+            },
+            {
+                "task_id": "20250925_154312",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Navigate to a bell-pepper plant and capture images of a leaf, a stem, and a bell-pepper with the tip camera."
+            },
+            {
+                "task_id": "20250925_154951",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Approach a strawberry plant and take close-up photos of two strawberry clusters"
+            },
+            {
+                "task_id": "20250925_155520",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Get close to an eggplant plant and take detailed photos of two leaves and a stem."
+            },
+            {
+                "task_id": "20250925_155924",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Navigate to a tomato plant and get photos of three different tomato fruits with the tip camera."
+            },
+            {
+                "task_id": "20250925_160426",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Move to a bell-pepper plant and capture close-up images of a stem, a bell-pepper, and a leaf using the tip camera."
+            },
+            {
+                "task_id": "20250925_160923",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Drive up to a tomato plant and take photos of a green tomato, a ripe tomato, and a stem."
+            },
+            {
+                "task_id": "20250925_193014",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Approach an eggplant plant and capture images of a stem, an eggplant, and a leaf."
+            },
+            {
+                "task_id": "20250925_193600",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Move toward a the lettuce plants and capture photos of three lettuce heads with the tip camera."
+            },
+            {
+                "task_id": "20250925_194229",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward a stem, a ripe tomato, and a leaf on a tomato plant and capture images."
+            },
+            {
+                "task_id": "20250925_195142",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Navigate to a strawberry plant and take close-up photos of a strawberry cluster and another one for leaves"
+            },
+            {
+                "task_id": "20250925_213443",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Approach a bell-pepper plant and take photos of two leaves and a stem."
+            },
+            {
+                "task_id": "20250927_211415",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Get close to a strawberry plant and capture three pictures: two strawberry clusters and leaves with the tip camera."
+            },
+            {
+                "task_id": "20250927_212047",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Navigate to the lettuces and take photos of two lettuce heads with the tip camera"
+            },
+            {
+                "task_id": "20250927_212757",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "Navigate to a bell-pepper plant and capture three different views of stems"
+            },
+            {
+                "task_id": "20250929_193309",
+                "environment_name": "greenhouse10",
+                "task_category": 1,
+                "task_prompt": "I want you to get three close-up views of different lettuce plants"
+            }
+        ],
+        "category_2": [
+            {
+                "task_id": "20250925_215305",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Move to three tomato plants and take one photo from each plant: a ripe tomato from the first, a green tomato from the second, and a leaf from the third using the tip camera."
+            },
+            {
+                "task_id": "20250925_222050",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Navigate to a strawberry plant, a lettuce plant, and an eggplant plant and take one photo from each plant: a strawberry from the first, a leaf from the second, and an eggplant from the third."
+            },
+            {
+                "task_id": "20250925_224127",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Position the tip camera toward three tomato plants and capture one image from each plant: a tomato cluster, a leaf, and a stem."
+            },
+            {
+                "task_id": "20250925_224933",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Approach three eggplant plants and take one photo from each: an eggplant, a leaf, and a stem."
+            },
+            {
+                "task_id": "20250926_221710",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Focus the tip camera on a bell-pepper plant, a tomato plant, and a lettuce plant and capture one image from each: a bell-pepper, a tomato leaf, and a lettuce head."
+            },
+            {
+                "task_id": "20250926_224807",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Go to three strawberry plants and take one photo from each: a strawberry, a leaf, and a stem."
+            },
+            {
+                "task_id": "20250926_225930",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Move to a tomato plant, a bell-pepper plant, and another tomato plant and capture one image from each: a green tomato, a stem, and a ripe tomato."
+            },
+            {
+                "task_id": "20250926_230939",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Drive up to a bell-pepper plant, a lettuce plant, and a tomato plant and take one photo from each: a bell-pepper, a lettuce head, and a ripe tomato."
+            },
+            {
+                "task_id": "20250927_213741",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Navigate to three tomato plants and take one photo from each plant: a leaf, a ripe tomato, and a green tomato."
+            },
+            {
+                "task_id": "20250927_220526",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Approach three bell-pepper plants and capture one photo from each: a bell-pepper, a leaf, and a stem."
+            },
+            {
+                "task_id": "20250929_191941",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Drive up to two bell-pepper plants and a strawberry plant and take one photo from each plant: a bell-pepper, a leaf, and a strawberry."
+            },
+            {
+                "task_id": "20250929_193743",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Approach two bell-pepper plants and a tomato plant and capture one image from each plant: a bell-pepper from the first, a stem from the second, and a tomato cluster from the third."
+            },
+            {
+                "task_id": "20250929_194705",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Move toward a lettuce plant, a bell-pepper plant, and an eggplant plant and capture one image from each: a lettuce leaf, a bell-pepper, and an eggplant."
+            },
+            {
+                "task_id": "20250929_211834",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Approach a tomato plant, a strawberry plant, and a lettuce plant and take one photo from each: a tomato cluster, a strawberry, and a lettuce head."
+            },
+            {
+                "task_id": "20250929_212715",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Move to an eggplant, a tomato plant, and a strawberry plant and take one photo from each: an eggplant, a tomato cluster, and a strawberry cluster."
+            },
+            {
+                "task_id": "20250929_213436",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Get close to two tomato plants and a strawberry plant and take one photo from each: a ripe tomato, a green tomato, and a strawberry."
+            },
+            {
+                "task_id": "20250929_215314",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Navigate to three bell-pepper plants on different rows and get a photo of a bell pepper from each"
+            },
+            {
+                "task_id": "20250929_221801",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Navigate to two eggplants and a tomato plant and capture one image from each plant: an eggplant, a leaf, and a ripe tomato"
+            },
+            {
+                "task_id": "20250929_223138",
+                "environment_name": "greenhouse10",
+                "task_category": 2,
+                "task_prompt": "Approach two lettuce clusters and take a close-up view of a lettuce head from each. Then go to the bell-pepper plants and get a photo of a bell pepper"
+            }
+        ]
+    },
+    "greenhouse11": {
+        "category_0": [
+            {
+                "task_id": "20250930_145045",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Move close to a tomato plant in the northernmost row and capture a tip camera photo of a ripe tomato."
+            },
+            {
+                "task_id": "20251002_092716",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Approach a tomato plant in the middle row and take a detailed tip camera image of a ripe tomato on the vine."
+            },
+            {
+                "task_id": "20251002_130423",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Navigate to a tomato plant in the southernmost row and use the tip camera to photograph a ripe tomato fruit."
+            },
+            {
+                "task_id": "20251002_130811",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Position yourself near the easternmost tomato plant in the northenmost row and capture a close-up tip camera photo of a ripe tomato."
+            },
+            {
+                "task_id": "20251002_131243",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Move to a tomato plant in the northernmost row and take a tip camera image of a green tomato."
+            },
+            {
+                "task_id": "20251002_131515",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Approach a tomato plant in the middle row and capture a detailed tip camera photo of an unripe green tomato."
+            },
+            {
+                "task_id": "20251002_132410",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Navigate near a tomato plant in the northern row and use the tip camera to photograph a green tomato."
+            },
+            {
+                "task_id": "20251002_135113",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Go close to a tomato plant in the middle row and take a close-up tip camera photo of a green tomato cluster."
+            },
+            {
+                "task_id": "20251002_135426",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Move near a tomato plant in the southern row and capture a tip camera photo of a yellow tomato."
+            },
+            {
+                "task_id": "20251002_152805",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Approach the westernmost tomato plant in the middle row and take a close-up tip camera image of a yellow tomato fruit."
+            },
+            {
+                "task_id": "20251002_153120",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Navigate to a tomato plant in the northernmost row and use the tip camera to photograph a ripe yellow tomato."
+            },
+            {
+                "task_id": "20251002_153910",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Position yourself by a tomato plant in the southernmost row and capture a detailed tip camera photo of a single yellow tomato."
+            },
+            {
+                "task_id": "20251002_155450",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Move to a tomato plant in the middle row and take a tip camera photo of a broad leaf."
+            },
+            {
+                "task_id": "20251002_155728",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Approach the easternmost tomato plant in the southernmost row and capture a detailed tip camera image of a tomato leaf."
+            },
+            {
+                "task_id": "20251002_160023",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Navigate near a tomato plant in the northern row and use the tip camera to photograph a leaf with visible veins."
+            },
+            {
+                "task_id": "20251002_160634",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Go close to a tomato plant in the southern row and take a close-up tip camera photo of a single tomato leaf."
+            },
+            {
+                "task_id": "20251002_161427",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Approach a tomato plant in the northernmost row and take a close-up tip camera image of the main tomato stem."
+            },
+            {
+                "task_id": "20251002_162139",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Navigate to the western most tomato plant in the southern row and use the tip camera to photograph a thin tomato stem."
+            },
+            {
+                "task_id": "20251002_162442",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Position yourself by a tomato plant in the northern row and capture a detailed tip camera photo of a stem at a leaf junction."
+            },
+            {
+                "task_id": "20251003_100306",
+                "environment_name": "greenhouse11",
+                "task_category": 0,
+                "task_prompt": "Move near a tomato plant in the middle row and capture a tip camera photo of a thick stem."
+            }
+        ],
+        "category_1": [
+            {
+                "task_id": "20251002_205834",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Move to a tomato plant in the northern most row and take tip camera photos of a ripe tomato, a green tomato, and a yellow tomato."
+            },
+            {
+                "task_id": "20251002_210212",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant in the middle row and capture images of two leaves and one stem using the tip camera."
+            },
+            {
+                "task_id": "20251002_210554",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Navigate near a tomato plant in the southernmost row and take tip camera photos of three ripe tomatoes."
+            },
+            {
+                "task_id": "20251002_211148",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Go close to the easternmost tomato plant in the northernmost row and capture detailed images of a green tomato, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251002_211845",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Move near a tomato plant in the middle row and use the tip camera to photograph three different leaves."
+            },
+            {
+                "task_id": "20251002_212252",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Go close to a tomato plant in the southern row and capture images of three tomato stems using the tip camera."
+            },
+            {
+                "task_id": "20251002_212549",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward a tomato plant in the northern row and take photos of two yellow tomatoes and one ripe tomato."
+            },
+            {
+                "task_id": "20251002_213504",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Navigate to a tomato plant in the middle row and take tip camera photos of two green tomatoes and one yellow tomato."
+            },
+            {
+                "task_id": "20251002_213929",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant in the northern row and capture images of a ripe tomato, a stem, and a leaf."
+            },
+            {
+                "task_id": "20251002_214331",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant in the southernmost row and take detailed photos of a yellow tomato, a ripe tomato, and a stem."
+            },
+            {
+                "task_id": "20251003_083505",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Position yourself by a tomato plant in the middle row and take tip camera photos of a ripe tomato, a green tomato, and a leaf."
+            },
+            {
+                "task_id": "20251003_084219",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Move to a tomato plant in the northernmost row and capture images of two ripe tomatoes and one stem with the tip camera."
+            },
+            {
+                "task_id": "20251003_100640",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward a tomato plant in the northern row and take photos of one green tomato and two stems."
+            },
+            {
+                "task_id": "20251003_100952",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Navigate near a tomato plant in the middle row and use the tip camera to photograph three tomatoes."
+            },
+            {
+                "task_id": "20251003_101300",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Move near a tomato plant in the southern row and capture images of a ripe tomato, an unripe tomato, and a leaf."
+            },
+            {
+                "task_id": "20251003_101641",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant in the middle row and take tip camera photos of three red tomatoes."
+            },
+            {
+                "task_id": "20251003_102049",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Navigate to a tomato plant in the northernmost row and capture images of a stem, a leaf, and a ripe tomato."
+            },
+            {
+                "task_id": "20251003_102453",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Go close to the westernmost tomato plant in the southern row and take detailed tip camera photos of three unripe tomatoes."
+            },
+            {
+                "task_id": "20251003_102804",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Position yourself by a tomato plant in the northern row and capture images of three leaves using the tip camera."
+            },
+            {
+                "task_id": "20251006_142552",
+                "environment_name": "greenhouse11",
+                "task_category": 1,
+                "task_prompt": "Go close to the easternmost tomato plant in the southernmost row and capture images of two leaves and a ripe tomato with the tip camera."
+            }
+        ],
+        "category_2": [
+            {
+                "task_id": "20251003_103220",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Move to three tomato plants and take tip camera photos of a ripe tomato on the first plant, a leaf on the second plant, and a stem on the third plant."
+            },
+            {
+                "task_id": "20251003_104056",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Approach three tomato plants in different rows and capture a stem on the first plant, a ripe tomato on the second plant, and a leaf on the third plant."
+            },
+            {
+                "task_id": "20251003_104651",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Navigate to three tomato plants and photograph a green tomato on the first plant, a ripe tomato on the second plant, and a stem on the third plant."
+            },
+            {
+                "task_id": "20251003_113351",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Go close to three tomato plants in different rows and take tip camera images of a leaf on the first plant, a ripe tomato on the second plant, and another leaf on the third plant."
+            },
+            {
+                "task_id": "20251003_114059",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Position the tip camera toward three tomato plants and capture a green tomato on the first plant, a stem on the second plant, and a ripe tomato on the third plant."
+            },
+            {
+                "task_id": "20251003_114942",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Move to three tomato plants in different rows and take tip camera photos of a ripe tomato on the first plant, a leaf on the second plant, and a yellow tomato on the third plant."
+            },
+            {
+                "task_id": "20251003_115618",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Approach three tomato plants and capture a green tomato on the first plant, a leaf on the second plant, and a stem on the third plant."
+            },
+            {
+                "task_id": "20251003_120202",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Navigate to three tomato plants in different rows and photograph a stem on the first plant, a ripe tomato on the second plant, and a yellow tomato on the third plant."
+            },
+            {
+                "task_id": "20251003_120803",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Go near three tomato plants and take tip camera images of a leaf on the first plant, a green tomato on the second plant, and a stem on the third plant."
+            },
+            {
+                "task_id": "20251003_121621",
+                "environment_name": "greenhouse11",
+                "task_category": 2,
+                "task_prompt": "Position yourself by three tomato plants in different rows and capture photos of a ripe tomato on the first plant, a leaf on the second plant, and a stem on the third plant."
+            }
+        ]
+    },
+    "greenhouse12": {
+        "category_0": [
+            {
+                "task_id": "20251007_151805",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Approach a tomato plant and capture a tip camera photo of an unripe tomato."
+            },
+            {
+                "task_id": "20251007_153742",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Move to an eggplant plant and take a tip camera photo of an eggplant"
+            },
+            {
+                "task_id": "20251007_154950",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Navigate near a tomato plant and take a tip camera photo of a leaf"
+            },
+            {
+                "task_id": "20251007_155559",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Approach an eggplant plant and photograph a leaf with the tip camera."
+            },
+            {
+                "task_id": "20251007_160319",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Go close to a tomato plant and photograph a stem using the tip camera."
+            },
+            {
+                "task_id": "20251007_161124",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Navigate near an eggplant plant and take a tip camera image of a stem."
+            },
+            {
+                "task_id": "20251007_162257",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera toward a tomato plant and capture a ripe tomato."
+            },
+            {
+                "task_id": "20251007_162938",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Go close to an eggplant plant and capture an eggplant using the tip camera."
+            },
+            {
+                "task_id": "20251007_163718",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Move to a bell pepper plant and take a tip camera photo of a red pepper."
+            },
+            {
+                "task_id": "20251007_164326",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera toward an eggplant plant and photograph a leaf."
+            },
+            {
+                "task_id": "20251007_164837",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Approach a bell pepper plant and capture a tip camera image of a leaf."
+            },
+            {
+                "task_id": "20251007_165428",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera toward an eggplant plant and photograph an eggplant."
+            },
+            {
+                "task_id": "20251007_170246",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Navigate near a bell pepper plant and photograph a stem using the tip camera."
+            },
+            {
+                "task_id": "20251007_171411",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Move to a tomato plant and take a tip camera photo of an unripe tomato."
+            },
+            {
+                "task_id": "20251008_053552",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Position the tip camera toward a bell pepper plant and photograph a leaf."
+            },
+            {
+                "task_id": "20251008_054416",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Navigate to a bell pepper plant and photograph a red pepper with the tip camera."
+            },
+            {
+                "task_id": "20251008_054854",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Approach an eggplant plant and capture a tip camera photo of a stem."
+            },
+            {
+                "task_id": "20251008_062823",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Approach an eggplant plant and capture a tip camera photo of a stem."
+            },
+            {
+                "task_id": "20251008_063620",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Go close to a bell pepper plant and take a tip camera photo of a yellow pepper."
+            },
+            {
+                "task_id": "20251008_064015",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Navigate to a bell pepper plant and photograph a red pepper with the tip camera."
+            },
+            {
+                "task_id": "20251008_064659",
+                "environment_name": "greenhouse12",
+                "task_category": 0,
+                "task_prompt": "Go near a tomato plant and take a tip camera image of a leaf."
+            }
+        ],
+        "category_1": [
+            {
+                "task_id": "20251009_171953",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "0"
+            },
+            {
+                "task_id": "20251009_172836",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Approach a tomato plant and capture images of an unripe tomato, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251009_175127",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Navigate near a bell pepper plant and photograph two red peppers and a leaf."
+            },
+            {
+                "task_id": "20251009_175554",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Approach an eggplant plant and take tip camera photos of an eggplant, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251009_180834",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward a bell pepper plant and photograph a stem, a leaf, and a red pepper."
+            },
+            {
+                "task_id": "20251009_181723",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Navigate near an eggplant plant and capture an eggplant, a stem, and a leaf."
+            },
+            {
+                "task_id": "20251010_201758",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Navigate near a tomato plant and photograph a ripe tomato, an unripe tomato, and a leaf."
+            },
+            {
+                "task_id": "20251010_202925",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Move to an eggplant plant and photograph an eggplant, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251010_203806",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Go close to a tomato plant and take tip camera photos of a stem, a ripe tomato, and a leaf."
+            },
+            {
+                "task_id": "20251010_205038",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Move to a bell pepper plant and take tip camera photos of a red pepper, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251010_210238",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward a tomato plant and capture a leaf, a ripe tomato, and an unripe tomato."
+            },
+            {
+                "task_id": "20251010_211554",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Approach an eggplant plant and take tip camera photos of a leaf, an eggplant, and a stem."
+            },
+            {
+                "task_id": "20251010_212540",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Approach a bell pepper plant and photograph a yellow pepper, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251010_213332",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Navigate near a bell pepper plant and capture a red pepper, a stem, and a leaf."
+            },
+            {
+                "task_id": "20251010_214818",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Go close to an eggplant plant and take tip camera photos of a stem, a leaf, and an eggplant."
+            },
+            {
+                "task_id": "20251010_215153",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Move to a tomato plant and capture a ripe tomato, an unripe tomato, and a leaf."
+            },
+            {
+                "task_id": "20251010_215801",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Go close to a bell pepper plant and take tip camera photos of a leaf, a red pepper, and a yellow pepper."
+            },
+            {
+                "task_id": "20251010_221226",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward an eggplant plant and photograph a leaf, a stem, and an eggplant."
+            },
+            {
+                "task_id": "20251010_221906",
+                "environment_name": "greenhouse12",
+                "task_category": 1,
+                "task_prompt": "Position the tip camera toward an eggplant plant and photograph an eggplant, a stem, and a leaf."
+            }
+        ],
+        "category_2": [
+            {
+                "task_id": "20251020_193017",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": ""
+            },
+            {
+                "task_id": "20251020_193930",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Approach two tomato plants and one eggplant plant, and capture a ripe tomato, a leaf on the second tomato, and an eggplant."
+            },
+            {
+                "task_id": "20251020_194825",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Navigate near a tomato plant, an eggplant plant, and a bell pepper plant, and photograph a stem on the tomato, an eggplant, and a red pepper."
+            },
+            {
+                "task_id": "20251020_195653",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Go close to three bell pepper plants and take tip camera photos of a red pepper on the first, a yellow pepper on the second, and a leaf on the third."
+            },
+            {
+                "task_id": "20251020_200659",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Position the tip camera toward two eggplant plants and one tomato plant, and capture an eggplant, a leaf on the second eggplant, and a ripe tomato."
+            },
+            {
+                "task_id": "20251020_201609",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Move to three tomato plants and photograph an unripe tomato, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251020_203840",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Navigate near a tomato plant, an eggplant plant, and a bell pepper plant, and photograph a leaf on the tomato, a stem on the eggplant, and a red pepper."
+            },
+            {
+                "task_id": "20251020_204615",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Go close to three eggplant plants and take tip camera photos of an eggplant, a leaf, and a stem."
+            },
+            {
+                "task_id": "20251020_210352",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Position the tip camera toward two bell pepper plants and one tomato plant, and capture a red pepper, a leaf, and an unripe tomato."
+            },
+            {
+                "task_id": "20251021_033900",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Move to three tomato plants and photograph a leaf, a ripe tomato, and a stem."
+            },
+            {
+                "task_id": "20251021_034617",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Approach one tomato plant, one eggplant plant, and one bell pepper plant, and capture an unripe tomato, an eggplant, and a yellow pepper."
+            },
+            {
+                "task_id": "20251021_035634",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Navigate near two tomato plants and one bell pepper plant, and take tip camera photos of a ripe tomato, a leaf on the second tomato, and a red pepper."
+            },
+            {
+                "task_id": "20251021_040845",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Go close to three bell pepper plants and photograph a yellow pepper, a stem, and a leaf."
+            },
+            {
+                "task_id": "20251021_042114",
+                "environment_name": "greenhouse12",
+                "task_category": 2,
+                "task_prompt": "Position the tip camera toward one tomato plant and two eggplant plants, and capture a ripe tomato, an eggplant, and a leaf on the second eggplant."
+            }
+        ]
+    }
+}
